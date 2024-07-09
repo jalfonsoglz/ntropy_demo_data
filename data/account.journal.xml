@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="account.1_sale" model="account.journal">
+            <field name="sequence">1</field>
+            <field name="code">FACS</field>
+            <field name="show_on_dashboard">true</field>
+        </record>
+        <record id="account.1_purchase" model="account.journal">
+            <field name="sequence">4</field>
+            <field name="code">FACTP</field>
+            <field name="show_on_dashboard">true</field>
+            <field name="default_account_id" ref="account.1_cuenta501_01"/>
+        </record>
+        <record id="account.1_cash" model="account.journal">
+            <field name="sequence">29</field>
+            <field name="show_on_dashboard">false</field>
+        </record>
+        <record id="account.1_general" model="account.journal">
+            <field name="sequence">31</field>
+            <field name="show_on_dashboard">false</field>
+        </record>
+        <record id="account.1_inventory_valuation" model="account.journal">
+            <field name="sequence">33</field>
+            <field name="code">VDI</field>
+            <field name="show_on_dashboard">false</field>
+        </record>
+        <record id="account.1_bank" model="account.journal">
+            <field name="sequence">29</field>
+            <field name="show_on_dashboard">false</field>
+        </record>
+        <record id="account.1_exch" model="account.journal">
+            <field name="sequence">34</field>
+        </record>
+        <record id="account.1_cbmx" model="account.journal">
+            <field name="sequence">35</field>
+            <field name="show_on_dashboard">false</field>
+        </record>
+        <record id="account.1_caba" model="account.journal">
+            <field name="sequence">36</field>
+        </record>
+        <!--        Creación de diarios contables de impuestos, banco mxn y banco usd-->
+        <record id="account_journal_mx_sale_invoice" model="account.journal">
+            <field name="name">Facturas de clientes 4.0</field>
+            <field name="sequence">2</field>
+            <field name="type">sale</field>
+            <field name="code">FACT</field>
+            <field name="default_account_id" ref="account.1_cuenta401_01"/>
+        </record>
+        <record id="account_journal_mx_sale_credit_note" model="account.journal">
+            <field name="name">Notas de crédito de cliente 4.0</field>
+            <field name="sequence">3</field>
+            <field name="type">sale</field>
+            <field name="code">NDC</field>
+            <field name="default_account_id" ref="ntropy_demo_data_generator.Cuenta402_01_01"/>
+        </record>
+        <record id="account_journal_mx_purchase_credit_note" model="account.journal">
+            <field name="name">Notas de crédito de proveedores</field>
+            <field name="sequence">5</field>
+            <field name="type">purchase</field>
+            <field name="code">NDCP</field>
+            <field name="default_account_id" ref="ntropy_demo_data_generator.Cuenta503_01_01"/>
+        </record>
+        <record id="account_journal_mx_tax" model="account.journal">
+            <field name="sequence">32</field>
+            <field name="name">Impuestos</field>
+            <field name="type">general</field>
+            <field name="code">IMP</field>
+        </record>
+        <record id="account_journal_bank_mx" model="account.journal">
+            <field name="name">BBVA 1315</field>
+            <field name="sequence">20</field>
+            <field name="type">bank</field>
+            <field name="code">BBVA</field>
+            <field name="currency_id" ref="base.MXN"/>
+            <field name="default_account_id" ref="account_account_bank_mx"/>
+            <field name="bank_account_id" ref="ntropy_demo_data_generator.sample_bank_accounts_01"/>
+        </record>
+        <record id="account_journal_bank_usd" model="account.journal">
+            <field name="name">MONEX 56789</field>
+            <field name="sequence">21</field>
+            <field name="type">bank</field>
+            <field name="code">MONEX</field>
+            <field name="currency_id" ref="base.USD"/>
+            <field name="default_account_id" ref="account_account_bank_usd"/>
+            <field name="bank_account_id" ref="ntropy_demo_data_generator.sample_bank_accounts_02"/>
+        </record>
+        <record id="account_journal_bank_eur" model="account.journal">
+            <field name="name">DEUTSCHE 1590</field>
+            <field name="sequence">22</field>
+            <field name="type">bank</field>
+            <field name="code">DEUTSCHE</field>
+            <field name="currency_id" ref="base.EUR"/>
+            <field name="default_account_id" ref="account_account_bank_eur"/>
+            <field name="bank_account_id" ref="ntropy_demo_data_generator.sample_bank_accounts_03"/>
+        </record>
+        <record id="account_journal_bank_jpy" model="account.journal">
+            <field name="name">INTERBANCO 7530</field>
+            <field name="sequence">23</field>
+            <field name="type">bank</field>
+            <field name="code">INTER</field>
+            <field name="currency_id" ref="base.JPY"/>
+            <field name="default_account_id" ref="account_account_bank_jpy"/>
+            <field name="bank_account_id" ref="ntropy_demo_data_generator.sample_bank_accounts_04"/>
+        </record>
+    </data>
+</odoo>

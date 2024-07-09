@@ -1,0 +1,226 @@
+id,name,code,account_type,reconcile,tag_ids/id
+Cuenta105_02_01,Clientes extranjeros,105.02.01,asset_receivable,TRUE,l10n_mx.tag_debit_balance_account
+Cuenta105_03_01,Clientes nacionales parte relacionada,105.03.01,asset_receivable,TRUE,l10n_mx.tag_debit_balance_account
+Cuenta105_04_01,Clientes extranjeros parte relacionada,105.04.01,asset_receivable,TRUE,l10n_mx.tag_debit_balance_account
+Cuenta107_02_01,Socios y accionistas,107.02.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta107_03_01,Partes relacionadas nacionales,107.03.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta107_04_01,Partes relacionadas extranjeros,107.04.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta113_01_01,IVA a favor,113.01.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta113_02_01,ISR a favor,113.02.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta113_03_01,IETU a favor,113.03.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta113_04_01,IDE a favor,113.04.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta113_05_01,IA a favor,113.05.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta113_06_01,Subsidio al empleo,113.06.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta113_07_01,Pago de lo indebido,113.07.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta113_08_01,Otros impuestos a favor,113.08.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta114_01_01,Pagos provisionales de ISR,114.01.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta115_07_01,Otros,115.07.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta118_02_01,IVA acreditable de importación pagado,118.02.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta118_04_01,IEPS pagado en importación,118.04.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta119_02_01,IVA de importación pendiente de pago,119.02.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta119_04_01,IEPS pendiente de pago en importación,119.04.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta120_03_01,Anticipo a proveedores nacional parte relacionada,120.03.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta120_04_01,Anticipo a proveedores extranjero parte relacionada,120.04.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta121_01_01,Otros activos a corto plazo,121.01.01,asset_current,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta201_02_01,Proveedores extranjeros,201.02.01,liability_payable,TRUE,l10n_mx.tag_credit_balance_account
+Cuenta201_03_01,Proveedores nacionales parte relacionada,201.03.01,liability_payable,TRUE,l10n_mx.tag_credit_balance_account
+Cuenta201_04_01,Proveedores extranjeros parte relacionada,201.04.01,liability_payable,TRUE,l10n_mx.tag_credit_balance_account
+Cuenta205_01_01,"Socios, accionistas o representante legal",205.01.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta205_02_01,Acreedores diversos a corto plazo nacional,205.02.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta205_03_01,Acreedores diversos a corto plazo extranjero,205.03.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta205_04_01,Acreedores diversos a corto plazo nacional parte relacionada,205.04.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta205_05_01,Acreedores diversos a corto plazo extranjero parte relacionada,205.05.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta206_03_01,Anticipo de cliente nacional parte relacionada,206.03.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta206_04_01,Anticipo de cliente extranjero parte relacionada,206.04.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta207_01_01,IVA trasladado,207.01.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta207_02_01,IEPS trasladado,207.02.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta210_02_01,Provisión de vacaciones por pagar,210.02.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta210_03_01,Provisión de aguinaldo por pagar,210.03.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta210_04_01,Provisión de fondo de ahorro por pagar,210.04.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta210_05_01,Provisión de asimilados a salarios por pagar,210.05.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta210_06_01,Provisión de anticipos o remanentes por distribuir,210.06.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta210_07_01,Provisión de otros sueldos y salarios por pagar,210.07.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta211_01_01,Provisión de IMSS patronal por pagar,211.01.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta211_02_01,Provisión de SAR por pagar,211.02.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta211_03_01,Provisión de infonavit por pagar,211.03.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta212_01_01,Provisión de impuesto estatal sobre nómina por pagar,212.01.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta213_01_01,IVA por pagar,213.01.01,liability_current,TRUE,l10n_mx.tag_credit_balance_account
+Cuenta213_02_01,IEPS por pagar,213.02.01,liability_current,TRUE,l10n_mx.tag_credit_balance_account
+Cuenta213_03_01,ISR por pagar,213.03.01,liability_current,TRUE,l10n_mx.tag_credit_balance_account
+Cuenta213_04_01,Impuesto estatal sobre nómina por pagar,213.04.01,liability_current,TRUE,l10n_mx.tag_credit_balance_account
+Cuenta213_05_01,Impuesto estatal y municipal por pagar,213.05.01,liability_current,TRUE,l10n_mx.tag_credit_balance_account
+Cuenta213_06_01,Derechos por pagar,213.06.01,liability_current,TRUE,l10n_mx.tag_credit_balance_account
+Cuenta213_07_01,Otros impuestos por pagar,213.07.01,liability_current,TRUE,l10n_mx.tag_credit_balance_account
+Cuenta214_01_01,Dividendos por pagar,214.01.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta215_01_01,PTU por pagar,215.01.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta215_02_01,PTU por pagar de ejercicios anteriores,215.02.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta215_03_01,Provisión de PTU por pagar,215.03.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta216_02_01,Impuestos retenidos de ISR por asimilados a salarios,216.02.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta216_05_01,Impuestos retenidos de ISR por dividendos,216.05.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta216_06_01,Impuestos retenidos de ISR por intereses,216.06.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta216_07_01,Impuestos retenidos de ISR por pagos al extranjero,216.07.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta216_08_01,Impuestos retenidos de ISR por venta de acciones,216.08.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta216_09_01,Impuestos retenidos de ISR por venta de partes sociales,216.09.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta216_12_01,Otras impuestos retenidos,216.12.01,liability_current,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta301_01_01,Capital fijo,301.01.01,equity,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta301_02_01,Capital variable,301.02.01,equity,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta301_03_01,Aportaciones para futuros aumentos de capital,301.03.01,equity,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta304_02_01,Pérdida de ejercicios anteriores,304.02.01,equity,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta304_03_01,Resultado integral de ejercicios anteriores,304.03.01,equity,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta304_04_01,Déficit o remanente de ejercicio anteriores,304.04.01,equity,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta305_02_01,Pérdida del ejercicio,305.02.01,equity,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta305_03_01,Resultado integral,305.03.01,equity,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_02_01,Ventas y/o servicios gravados a la tasa general de contado,401.02.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_03_01,Ventas y/o servicios gravados a la tasa general a crédito,401.03.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_04_01,Ventas y/o servicios gravados al 0%,401.04.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_05_01,Ventas y/o servicios gravados al 0% de contado,401.05.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_06_01,Ventas y/o servicios gravados al 0% a crédito,401.06.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_07_01,Ventas y/o servicios exentos,401.07.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_08_01,Ventas y/o servicios exentos de contado,401.08.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_09_01,Ventas y/o servicios exentos a crédito,401.09.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_10_01,Ventas y/o servicios gravados a la tasa general nacionales partes relacionadas,401.10.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_11_01,Ventas y/o servicios gravados a la tasa general extranjeros partes relacionadas,401.11.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_12_01,Ventas y/o servicios gravados al 0% nacionales partes relacionadas,401.12.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_13_01,Ventas y/o servicios gravados al 0% extranjeros partes relacionadas,401.13.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_14_01,Ventas y/o servicios exentos nacionales partes relacionadas,401.14.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_15_01,Ventas y/o servicios exentos extranjeros partes relacionadas,401.15.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_16_01,Ingresos por servicios administrativos,401.16.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_17_01,Ingresos por servicios administrativos nacionales partes relacionadas,401.17.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_18_01,Ingresos por servicios administrativos extranjeros partes relacionadas,401.18.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_19_01,Ingresos por servicios profesionales,401.19.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_20_01,Ingresos por servicios profesionales nacionales partes relacionadas,401.2.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_21_01,Ingresos por servicios profesionales extranjeros partes relacionadas,401.21.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_22_01,Ingresos por arrendamiento,401.22.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_23_01,Ingresos por arrendamiento nacionales partes relacionadas,401.23.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_24_01,Ingresos por arrendamiento extranjeros partes relacionadas,401.24.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_25_01,Ingresos por exportación,401.25.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_26_01,Ingresos por comisiones,401.26.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_27_01,Ingresos por maquila,401.27.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_28_01,Ingresos por coordinados,401.28.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_29_01,Ingresos por regalías,401.29.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_30_01,Ingresos por asistencia técnica,401.30.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_31_01,Ingresos por donativos,401.31.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_32_01,Ingresos por intereses (actividad propia),401.32.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_33_01,Ingresos de copropiedad,401.33.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_34_01,Ingresos por fideicomisos,401.34.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_35_01,Ingresos por factoraje financiero,401.35.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_36_01,Ingresos por arrendamiento financiero,401.36.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_37_01,Ingresos de extranjeros con establecimiento en el país,401.37.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_38_01,Otros ingresos propios,401.38.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_39_01,Ventas y/o servicios gravados realizados en zona fronteriza norte,401.39.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_40_01,Ventas y/o servicios gravados realizados en zona fronteriza norte de contado,401.40.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta401_41_01,Ventas y/o servicios gravados realizados en zona fronteriza norte a crédito,401.41.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta402_01_01,"Devoluciones, descuentos o bonificaciones sobre ventas y/o servicios a la tasa general",402.01.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta402_02_01,"Devoluciones, descuentos o bonificaciones sobre ventas y/o servicios al 0%",402.02.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta402_03_01,"Devoluciones, descuentos o bonificaciones sobre ventas y/o servicios exentos",402.03.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta402_04_01,"Devoluciones, descuentos o bonificaciones de otros ingresos",402.04.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta402_05_01,"Devoluciones, descuentos o bonificaciones sobre ventas y/o servicios en zona fronteriza norte",402.05.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta403_01_01,Otros Ingresos,403.01.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta403_02_01,Otros ingresos nacionales parte relacionada,403.02.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta403_03_01,Otros ingresos extranjeros parte relacionada,403.03.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta403_04_01,Ingresos por operaciones discontinuas,403.04.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta403_05_01,Ingresos por condonación de adeudo,403.05.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta501_02_01,Costo de servicios (Mano de obra),501.02.01,expense_direct_cost,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta501_08_01,Otros conceptos de costo,501.08.01,expense_direct_cost,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta502_01_01,Compras nacionales,502.01.01,expense_direct_cost,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta502_02_01,Compras nacionales parte relacionada,502.02.01,expense_direct_cost,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta502_03_01,Compras de Importación,502.03.01,expense_direct_cost,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta502_04_01,Compras de Importación partes relacionadas,502.04.01,expense_direct_cost,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta503_01_01,"Devoluciones, descuentos o bonificaciones sobre compras",503.01.01,expense_direct_cost,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta504_04_01,Otras cuentas de costos incurridos,504.04.01,expense_direct_cost,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta504_25_01,Otras cuentas de costos,504.25.01,expense_direct_cost,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_02_01,Compensaciones,601.02.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_03_01,Tiempos extras,601.03.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_04_01,Premios de asistencia,601.04.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_05_01,Premios de puntualidad,601.05.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_06_01,Vacaciones,601.06.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_07_01,Prima vacacional,601.07.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_08_01,Prima dominical,601.08.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_09_01,Días festivos,601.09.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_10_01,Gratificaciones,601.10.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_11_01,Primas de antigüedad,601.11.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_12_01,Aguinaldo,601.12.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_13_01,Indemnizaciones,601.13.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_14_01,Destajo,601.14.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_15_01,Despensa,601.15.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_16_01,Transporte,601.16.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_17_01,Servicio médico,601.17.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_18_01,Ayuda en gastos funerarios,601.18.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_19_01,Fondo de ahorro,601.19.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_20_01,Cuotas sindicales,601.20.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_21_01,PTU,601.21.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_22_01,Estímulo al personal,601.22.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_23_01,Previsión social,601.23.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_24_01,Aportaciones para el plan de jubilación,601.24.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_25_01,Otras prestaciones al personal,601.25.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_27_01,Aportaciones al infonavit,601.27.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_28_01,Aportaciones al SAR,601.28.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_29_01,Impuesto estatal sobre nóminas,601.29.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_30_01,Otras aportaciones,601.30.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_31_01,Asimilados a salarios,601.31.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_32_01,Servicios administrativos,601.32.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_33_01,Servicios administrativos partes relacionadas,601.33.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_34_01,Honorarios a personas físicas residentes nacionales,601.34.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_35_01,Honorarios a personas físicas residentes nacionales partes relacionadas,601.35.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_36_01,Honorarios a personas físicas residentes del extranjero,601.36.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_37_01,Honorarios a personas físicas residentes del extranjero partes relacionadas,601.37.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_38_01,Honorarios a personas morales residentes nacionales,601.38.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_39_01,Honorarios a personas morales residentes nacionales partes relacionadas,601.39.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_40_01,Honorarios a personas morales residentes del extranjero,601.40.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_41_01,Honorarios a personas morales residentes del extranjero partes relacionadas,601.41.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_42_01,Honorarios aduanales personas físicas,601.42.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_43_01,Honorarios aduanales personas morales,601.43.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_44_01,Honorarios al consejo de administración,601.44.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_45_01,Arrendamiento a personas físicas residentes nacionales,601.45.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_46_01,Arrendamiento a personas morales residentes nacionales,601.46.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_47_01,Arrendamiento a residentes del extranjero,601.47.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_48_01,Combustibles y lubricantes,601.48.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_49_01,Viáticos y gastos de viaje,601.49.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_50_01,"Teléfono, internet",601.50.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_51_01,Agua,601.51.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_52_01,Energía eléctrica,601.52.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_53_01,Vigilancia y seguridad,601.53.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_54_01,Limpieza,601.54.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_55_01,Papelería y artículos de oficina,601.55.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_56_01,Mantenimiento y conservación,601.56.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_57_01,Seguros y fianzas,601.57.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_58_01,Otros impuestos y derechos,601.58.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_59_01,Recargos fiscales,601.59.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_60_01,Cuotas y suscripciones,601.60.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_61_01,Propaganda y publicidad,601.61.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_62_01,Capacitación al personal,601.62.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_63_01,Donativos y ayudas,601.63.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_64_01,Asistencia técnica,601.64.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_65_01,Regalías sujetas a otros porcentajes,601.65.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_66_01,Regalías sujetas al 5%,601.66.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_67_01,Regalías sujetas al 10%,601.67.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_68_01,Regalías sujetas al 15%,601.68.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_69_01,Regalías sujetas al 25%,601.69.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_70_01,Regalías sujetas al 30%,601.70.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_71_01,Regalías sin retención,601.71.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_72_01,Fletes y acarreos,601.72.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_73_01,Gastos de importación,601.73.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_74_01,Comisiones sobre ventas,601.74.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_75_01,Comisiones por tarjetas de crédito,601.75.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_76_01,Patentes y marcas,601.76.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_77_01,Uniformes,601.77.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_78_01,Prediales,601.78.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_79_01,Gastos generales de urbanización,601.79.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_80_01,Gastos generales de construcción,601.80.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_81_01,Fletes del extranjero,601.81.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_82_01,Recolección de bienes del sector agropecuario y/o ganadero,601.82.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta601_83_01,Gastos no deducibles (sin requisitos fiscales),601.83.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta701_02_01,Pérdida cambiaria nacional parte relacionada,701.02.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta701_03_01,Pérdida cambiaria extranjero parte relacionada,701.03.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta701_04_01,Intereses a cargo bancario nacional,701.04.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta701_05_01,Intereses a cargo bancario extranjero,701.05.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta701_10_01,Comisiones bancarias,701.10.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta701_11_01,Otros gastos financieros,701.11.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta702_02_01,Utilidad cambiaria nacional parte relacionada,702.02.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta702_03_01,Utilidad cambiaria extranjero parte relacionada,702.03.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta702_10_01,Otros productos financieros,702.10.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta703_21_01,Otros gastos,703.21.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta704_23_01,Otros productos,704.23.01,income,FALSE,l10n_mx.tag_credit_balance_account
+Cuenta811_02_01,Contra cuenta utilidad o pérdida fiscal en venta y/o baja de activo fijo,811.02.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta899_01_01,Otras cuentas de orden,899.01.01,expense,FALSE,l10n_mx.tag_debit_balance_account
+Cuenta899_02_01,Contra cuenta otras cuentas de orden,899.02.01,expense,FALSE,l10n_mx.tag_debit_balance_account

@@ -1,0 +1,8 @@
+<odoo>
+    <data>
+        <record id="stock.route_warehouse0_mto" model="stock.route">
+            <field name="active">1</field>
+            <field name="sequence">6</field>
+        </record>
+    </data>
+</odoo>

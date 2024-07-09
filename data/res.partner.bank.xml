@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!--Creación Cuentas Bancarias de ejemplo-->
+        <record id="sample_bank_accounts_01" model="res.partner.bank">
+            <field name="acc_number">2995738327</field>
+            <field name="bank_id" ref="l10n_mx.acc_bank_012_BBVA_BANCOMER"/>
+            <field name="l10n_mx_edi_clabe">012180029957383276</field>
+            <field name="partner_id" ref="base.main_partner"/>
+            <field name="currency_id" ref="base.MXN"/>
+<!--            <field name="allow_out_payment">true</field>-->
+        </record>
+        <record id="sample_bank_accounts_02" model="res.partner.bank">
+            <field name="acc_number">130831920</field>
+            <field name="bank_id" ref="l10n_mx.acc_bank_112_BMONEX"/>
+            <field name="l10n_mx_edi_clabe">021190040130831920</field>
+            <field name="partner_id" ref="base.main_partner"/>
+            <field name="currency_id" ref="base.USD"/>
+<!--            <field name="allow_out_payment">true</field>-->
+        </record>
+        <record id="sample_bank_accounts_03" model="res.partner.bank">
+            <field name="acc_number">2210206062</field>
+            <field name="bank_id" ref="l10n_mx.acc_bank_124_DEUTSCHE"/>
+            <field name="l10n_mx_edi_clabe">002905700148442060</field>
+            <field name="partner_id" ref="base.main_partner"/>
+            <field name="currency_id" ref="base.EUR"/>
+<!--            <field name="allow_out_payment">true</field>-->
+        </record>
+        <record id="sample_bank_accounts_04" model="res.partner.bank">
+            <field name="acc_number">2863148327</field>
+            <field name="bank_id" ref="l10n_mx.acc_bank_136_INTERBANCO"/>
+            <field name="l10n_mx_edi_clabe">01218002863148327</field>
+            <field name="partner_id" ref="base.main_partner"/>
+            <field name="currency_id" ref="base.JPY"/>
+<!--            <field name="allow_out_payment">true</field>-->
+        </record>
+    </data>
+</odoo>
+

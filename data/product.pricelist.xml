@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="pricelist_mxn" model="product.pricelist">
+            <field name="name">Pesos</field>
+            <field name="currency_id" ref="base.MXN"/>
+        </record>
+        <record id="pricelist_usd" model="product.pricelist">
+            <field name="name">Dollars</field>
+            <field name="currency_id" ref="base.USD"/>
+        </record>
+        <record id="pricelist_eur" model="product.pricelist">
+            <field name="name">Euros</field>
+            <field name="currency_id" ref="base.EUR"/>
+        </record>
+        <record id="pricelist_jpy" model="product.pricelist">
+            <field name="name">Yen</field>
+            <field name="currency_id" ref="base.JPY"/>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="account.1_tax_group_iva_0" model="account.tax.group">
+            <field name="tax_payable_account_id" ref="ntropy_demo_data_generator.Cuenta213_01_01"/>
+            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_01_01"/>
+        </record>
+        <record id="account.1_tax_group_iva_16" model="account.tax.group">
+            <field name="tax_payable_account_id" ref="ntropy_demo_data_generator.Cuenta213_01_01"/>
+            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_01_01"/>
+        </record>
+        <record id="account.1_tax_group_iva_8" model="account.tax.group">
+            <field name="tax_payable_account_id" ref="ntropy_demo_data_generator.Cuenta213_01_01"/>
+            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_01_01"/>
+        </record>
+        <record id="account.1_tax_group_iva_ret_1_25" model="account.tax.group">
+            <field name="tax_payable_account_id" ref="account.1_cuenta216_10"/>
+            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_01_01"/>
+        </record>
+        <record id="account.1_tax_group_iva_ret_4" model="account.tax.group">
+            <field name="tax_payable_account_id" ref="account.1_cuenta216_10"/>
+            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_01_01"/>
+        </record>
+        <record id="account.1_tax_group_iva_ret_10" model="account.tax.group">
+            <field name="tax_payable_account_id" ref="account.1_cuenta216_10"/>
+            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_01_01"/>
+        </record>
+        <record id="account.1_tax_group_iva_ret_1067" model="account.tax.group">
+            <field name="tax_payable_account_id" ref="account.1_cuenta216_10"/>
+            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_01_01"/>
+        </record>
+        <record id="account.1_tax_group_isr_ret_10" model="account.tax.group">
+            <field name="tax_payable_account_id" ref="ntropy_demo_data_generator.Cuenta213_03_01"/>
+            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_02_01"/>
+        </record>
+        <record id="account.1_tax_group_ieps_8" model="account.tax.group">
+            <field name="tax_payable_account_id" ref="ntropy_demo_data_generator.Cuenta213_02_01"/>
+            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_08_01"/>
+        </record>
+        <record id="account.1_tax_group_ieps_25" model="account.tax.group">
+            <field name="tax_payable_account_id" ref="ntropy_demo_data_generator.Cuenta213_02_01"/>
+            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_08_01"/>
+        </record>
+        <record id="account.1_tax_group_ieps_26_5" model="account.tax.group">
+            <field name="tax_payable_account_id" ref="ntropy_demo_data_generator.Cuenta213_02_01"/>
+            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_08_01"/>
+        </record>
+        <record id="account.1_tax_group_ieps_30" model="account.tax.group">
+            <field name="tax_payable_account_id" ref="ntropy_demo_data_generator.Cuenta213_02_01"/>
+            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_08_01"/>
+        </record>
+        <record id="account.1_tax_group_ieps_53" model="account.tax.group">
+            <field name="tax_payable_account_id" ref="ntropy_demo_data_generator.Cuenta213_02_01"/>
+            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_08_01"/>
+        </record>
+<!--        <record id="account.2_tax_group_iva_0" model="account.tax.group">-->
+<!--            <field name="tax_payable_account_id" ref="ntropy_demo_data_generator.Cuenta213_01_01"/>-->
+<!--            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_01_01"/>-->
+<!--        </record>-->
+<!--        <record id="account.2_tax_group_iva_16" model="account.tax.group">-->
+<!--            <field name="tax_payable_account_id" ref="ntropy_demo_data_generator.Cuenta213_01_01"/>-->
+<!--            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_01_01"/>-->
+<!--        </record>-->
+<!--        <record id="account.2_tax_group_iva_8" model="account.tax.group">-->
+<!--            <field name="tax_payable_account_id" ref="ntropy_demo_data_generator.Cuenta213_01_01"/>-->
+<!--            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_01_01"/>-->
+<!--        </record>-->
+<!--        <record id="account.2_tax_group_iva_ret_1_25" model="account.tax.group">-->
+<!--            <field name="tax_payable_account_id" ref="account.2_cuenta216_10"/>-->
+<!--            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_01_01"/>-->
+<!--        </record>-->
+<!--        <record id="account.2_tax_group_iva_ret_4" model="account.tax.group">-->
+<!--            <field name="tax_payable_account_id" ref="account.2_cuenta216_10"/>-->
+<!--            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_01_01"/>-->
+<!--        </record>-->
+<!--        <record id="account.2_tax_group_iva_ret_10" model="account.tax.group">-->
+<!--            <field name="tax_payable_account_id" ref="account.2_cuenta216_10"/>-->
+<!--            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_01_01"/>-->
+<!--        </record>-->
+<!--        <record id="account.2_tax_group_iva_ret_1067" model="account.tax.group">-->
+<!--            <field name="tax_payable_account_id" ref="account.2_cuenta216_10"/>-->
+<!--            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_01_01"/>-->
+<!--        </record>-->
+<!--        <record id="account.2_tax_group_isr_ret_10" model="account.tax.group">-->
+<!--            <field name="tax_payable_account_id" ref="ntropy_demo_data_generator.Cuenta213_03_01"/>-->
+<!--            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_02_01"/>-->
+<!--        </record>-->
+<!--        <record id="account.2_tax_group_ieps_8" model="account.tax.group">-->
+<!--            <field name="tax_payable_account_id" ref="ntropy_demo_data_generator.Cuenta213_02_01"/>-->
+<!--            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_08_01"/>-->
+<!--        </record>-->
+<!--        <record id="account.2_tax_group_ieps_25" model="account.tax.group">-->
+<!--            <field name="tax_payable_account_id" ref="ntropy_demo_data_generator.Cuenta213_02_01"/>-->
+<!--            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_08_01"/>-->
+<!--        </record>-->
+<!--        <record id="account.2_tax_group_ieps_26_5" model="account.tax.group">-->
+<!--            <field name="tax_payable_account_id" ref="ntropy_demo_data_generator.Cuenta213_02_01"/>-->
+<!--            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_08_01"/>-->
+<!--        </record>-->
+<!--        <record id="account.2_tax_group_ieps_30" model="account.tax.group">-->
+<!--            <field name="tax_payable_account_id" ref="ntropy_demo_data_generator.Cuenta213_02_01"/>-->
+<!--            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_08_01"/>-->
+<!--        </record>-->
+<!--        <record id="account.2_tax_group_ieps_53" model="account.tax.group">-->
+<!--            <field name="tax_payable_account_id" ref="ntropy_demo_data_generator.Cuenta213_02_01"/>-->
+<!--            <field name="tax_receivable_account_id" ref="ntropy_demo_data_generator.Cuenta113_08_01"/>-->
+<!--        </record>-->
+    </data>
+</odoo>

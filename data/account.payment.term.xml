@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="account.account_payment_term_30_days_end_month_the_10" model="account.payment.term">
+            <field name="active">false</field>
+        </record>
+        <record id="account.account_payment_term_30days_early_discount" model="account.payment.term">
+            <field name="active">false</field>
+        </record>
+        <record id="account.account_payment_term_end_following_month" model="account.payment.term">
+            <field name="active">false</field>
+        </record>
+    </data>
+</odoo>

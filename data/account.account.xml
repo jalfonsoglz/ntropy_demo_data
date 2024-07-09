@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!--        CUENTAS CONTABLES MULTIMONEDA PARA BANCOS-->
+        <record id="account_account_bank_mx" model="account.account">
+            <field name="code">102.01.05</field>
+            <field name="name">BBVA 01234</field>
+            <field name="account_type">asset_cash</field>
+            <field name="currency_id" ref="base.MXN"/>
+        </record>
+        <record id="account_account_bank_usd" model="account.account">
+            <field name="code">102.01.06</field>
+            <field name="name">MONEX 56789</field>
+            <field name="account_type">asset_cash</field>
+            <field name="currency_id" ref="base.USD"/>
+        </record>
+        <record id="account_account_bank_eur" model="account.account">
+            <field name="code">102.01.07</field>
+            <field name="name">DEUTSCHE 1590</field>
+            <field name="account_type">asset_cash</field>
+            <field name="currency_id" ref="base.EUR"/>
+        </record>
+        <record id="account_account_bank_jpy" model="account.account">
+            <field name="code">102.01.08</field>
+            <field name="name">INTERBANCO 7530</field>
+            <field name="account_type">asset_cash</field>
+            <field name="currency_id" ref="base.JPY"/>
+        </record>
+        <!--        CUENTAS CONTABLES DE CLIENTES-->
+        <record id="account_account_mx_partner_01" model="account.account">
+            <field name="code">105.01.03</field>
+            <field name="name">MARIA OLIVIA MARTINEZ SAGAZ</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_02" model="account.account">
+            <field name="code">105.01.04</field>
+            <field name="name">FELIX MANUEL ANDRADE BALLADO</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_03" model="account.account">
+            <field name="code">105.01.05</field>
+            <field name="name">CESAR OSBALDO CRUZ SOLORZANO</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_04" model="account.account">
+            <field name="code">105.01.06</field>
+            <field name="name">XOCHILT CASAS CHAVEZ</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_05" model="account.account">
+            <field name="code">105.01.07</field>
+            <field name="name">KARLA FUENTE NOLASCO</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_06" model="account.account">
+            <field name="code">105.01.08</field>
+            <field name="name">LUIS IAN ÑUZCO</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_07" model="account.account">
+            <field name="code">105.01.09</field>
+            <field name="name">ADRIANA JUAREZ FERNANDEZ</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_08" model="account.account">
+            <field name="code">105.01.10</field>
+            <field name="name">CECILIA MIRANDA SANCHEZ</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_09" model="account.account">
+            <field name="code">105.01.11</field>
+            <field name="name">ÑEVES RAMIREZ QUEZADA</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_10" model="account.account">
+            <field name="code">105.01.12</field>
+            <field name="name">MARIA WATEMBER TORRES</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_11" model="account.account">
+            <field name="code">105.01.13</field>
+            <field name="name">XAIME WEIR ROJO</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_12" model="account.account">
+            <field name="code">105.01.14</field>
+            <field name="name">ALBA XKARAJAM MENDEZ</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_13" model="account.account">
+            <field name="code">105.01.15</field>
+            <field name="name">INGRID XODAR JIMENEZ</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_14" model="account.account">
+            <field name="code">105.01.16</field>
+            <field name="name">RODRIGO KITIA CASTRO</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_15" model="account.account">
+            <field name="code">105.01.17</field>
+            <field name="name">ARENA BLANCA</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_16" model="account.account">
+            <field name="code">105.01.18</field>
+            <field name="name">COMERCIALIZADORA TEODORIKAS</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_17" model="account.account">
+            <field name="code">105.01.19</field>
+            <field name="name">ALBERCAS MONTAÑO</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_18" model="account.account">
+            <field name="code">105.01.20</field>
+            <field name="name">GRUPO DE CONSTRUCCION ARQUITECTONICA NACIONAL</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_19" model="account.account">
+            <field name="code">105.01.21</field>
+            <field name="name">HIDRO HORTICOLA DEL NOROESTE</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_20" model="account.account">
+            <field name="code">105.01.22</field>
+            <field name="name">XENON INDUSTRIAL ARTICLES</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_21" model="account.account">
+            <field name="code">105.01.23</field>
+            <field name="name">KERNEL INDUSTIA JUGUETERA</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <record id="account_account_mx_partner_22" model="account.account">
+            <field name="code">105.02.24</field>
+            <field name="name">UMBRELLA CORPORATION</field>
+            <field name="account_type">asset_receivable</field>
+        </record>
+        <!--        CUENTAS CONTABLES PARA PROVEEDORES-->
+        <record id="account_account_mx_supplier_01" model="account.account">
+            <field name="code">201.01.02</field>
+            <field name="name">MBERENICE XIMO QUEZADA</field>
+            <field name="account_type">liability_payable</field>
+        </record>
+        <record id="account_account_mx_supplier_02" model="account.account">
+            <field name="code">201.01.03</field>
+            <field name="name">INMOBILIARIA CVA</field>
+            <field name="account_type">liability_payable</field>
+        </record>
+        <record id="account_account_mx_supplier_03" model="account.account">
+            <field name="code">201.01.04</field>
+            <field name="name">INDISTRIA ILUMINADORA DE ALMACENES</field>
+            <field name="account_type">liability_payable</field>
+        </record>
+        <record id="account_account_mx_supplier_04" model="account.account">
+            <field name="code">201.01.05</field>
+            <field name="name">HERRERIA &amp; ELECTRICOS</field>
+            <field name="account_type">liability_payable</field>
+        </record>
+        <record id="account_account_mx_supplier_05" model="account.account">
+            <field name="code">201.01.06</field>
+            <field name="name">INNOVACION VALOR Y DESARROLLO</field>
+            <field name="account_type">liability_payable</field>
+        </record>
+        <record id="account_account_mx_supplier_06" model="account.account">
+            <field name="code">201.01.07</field>
+            <field name="name">INTERNACIONAL XIMBO Y SABORES</field>
+            <field name="account_type">liability_payable</field>
+        </record>
+        <record id="account_account_mx_supplier_07" model="account.account">
+            <field name="code">201.01.08</field>
+            <field name="name">JIMENEZ ESTRADA SALAS</field>
+            <field name="account_type">liability_payable</field>
+        </record>
+        <record id="account_account_mx_supplier_08" model="account.account">
+            <field name="code">201.01.09</field>
+            <field name="name">LUCES &amp; OBRAS</field>
+            <field name="account_type">liability_payable</field>
+        </record>
+        <record id="account_account_mx_supplier_09" model="account.account">
+            <field name="code">201.01.10</field>
+            <field name="name">ORGANICOS ÑAVEZ OSORIO</field>
+            <field name="account_type">liability_payable</field>
+        </record>
+        <record id="account_account_mx_supplier_10" model="account.account">
+            <field name="code">201.01.11</field>
+            <field name="name">S &amp; SOFTWARE</field>
+            <field name="account_type">liability_payable</field>
+        </record>
+        <record id="account_account_mx_supplier_11" model="account.account">
+            <field name="code">201.01.12</field>
+            <field name="name">ZAPATERIA URTADO ÑERI</field>
+            <field name="account_type">liability_payable</field>
+        </record>
+        <record id="account_account_mx_supplier_12" model="account.account">
+            <field name="code">201.01.13</field>
+            <field name="name">UNIVERSIDAD ROBOTICA ESPAÑOLA</field>
+            <field name="account_type">liability_payable</field>
+        </record>
+        <record id="account_account_mx_supplier_00" model="account.account">
+            <field name="code">201.02.02</field>
+            <field name="name">UMBRELLA CORPORATION</field>
+            <field name="account_type">liability_payable</field>
+        </record>
+    </data>
+</odoo>
+

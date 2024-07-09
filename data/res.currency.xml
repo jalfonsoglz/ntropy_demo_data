@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="base.MXN" model="res.currency">
+            <field name="active">True</field>
+        </record>
+        <record id="base.USD" model="res.currency">
+            <field name="active">True</field>
+        </record>
+        <record id="base.EUR" model="res.currency">
+            <field name="active">True</field>
+        </record>
+        <record id="base.JPY" model="res.currency">
+            <field name="active">True</field>
+        </record>
+    </data>
+</odoo>

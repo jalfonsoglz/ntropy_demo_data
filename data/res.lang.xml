@@ -1,0 +1,16 @@
+<odoo>
+    <data>
+        <record id="base.lang_en" model="res.lang">
+            <field name="active">true</field>
+        </record>
+<!--        <function model="account.chart.template" name="try_loading">-->
+<!--            <value eval="[]"/>-->
+<!--            <value>mx</value>-->
+<!--            <value model="res.company" eval="obj().env.ref('l10n_mx.main_company')"/>-->
+<!--        </function>-->
+
+        <!--        <record id="chart_template_mx" model="res.config.settings">-->
+        <!--            <field name="chart_template">mx</field>-->
+        <!--        </record>-->
+    </data>
+</odoo>

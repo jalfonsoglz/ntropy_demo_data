@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+<!--Creación pagos de ejemplo-->
+        <record id="sample_payment_mx_01" model="account.payment">
+            <field name="payment_type">inbound</field>
+            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_7"/>
+            <field name="amount">1160</field>
+            <field name="date">2023-10-01</field>
+            <field name="ref">FACC/2023/12/01</field>
+            <field name="journal_id" ref="account_journal_bank_mx"/>
+            <field name="state">draft</field>
+        </record>
+        <record id="sample_payment_mx_02" model="account.payment">
+            <field name="payment_type">inbound</field>
+            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_7"/>
+            <field name="amount">5220</field>
+            <field name="date">2024-01-01</field>
+            <field name="ref">FACC/2024/02/03</field>
+            <field name="journal_id" ref="account_journal_bank_mx"/>
+            <field name="state">draft</field>
+        </record>
+        <record id="sample_payment_mx_03" model="account.payment">
+            <field name="payment_type">inbound</field>
+            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_7"/>
+            <field name="amount">5000</field>
+            <field name="date">2024-01-01</field>
+            <field name="ref">FACC/2024/02/03</field>
+            <field name="journal_id" ref="account_journal_bank_mx"/>
+            <field name="state">draft</field>
+        </record>
+        <record id="sample_payment_mx_04" model="account.payment">
+            <field name="payment_type">inbound</field>
+            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_7"/>
+            <field name="amount">7180</field>
+            <field name="date">2024-02-01</field>
+            <field name="ref">FACC/2024/02/03</field>
+            <field name="journal_id" ref="account_journal_bank_mx"/>
+            <field name="state">draft</field>
+        </record>
+    </data>
+</odoo>

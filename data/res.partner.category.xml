@@ -1,0 +1,24 @@
+<odoo>
+    <data noupdate="1">
+        <record id="user_test_category" model="res.partner.category">
+            <field name="name">Testing</field>
+            <field name="color">10</field>
+            <field name="active">1</field>
+        </record>
+        <record id="customer_category" model="res.partner.category">
+            <field name="name">Cliente</field>
+            <field name="color">10</field>
+            <field name="active">1</field>
+        </record>
+        <record id="supplier_category" model="res.partner.category">
+            <field name="name">Proveedor</field>
+            <field name="color">10</field>
+            <field name="active">1</field>
+        </record>
+        <record id="user_erp_category" model="res.partner.category">
+            <field name="name">ERP User</field>
+            <field name="color">11</field>
+            <field name="active">1</field>
+        </record>
+    </data>
+</odoo>

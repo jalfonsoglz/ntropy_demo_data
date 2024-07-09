@@ -1,0 +1,93 @@
+<odoo>
+    <data>
+        <record id="demo_ntropy_project" model="project.project">
+            <field name="name">Implementación Básica Odoo</field>
+            <field name="user_id" ref="base.user_admin"/>
+            <field name="allocated_hours">40</field>
+            <field name="date_start">2024-05-06</field>
+            <field name="date">2024-06-03</field>
+            <field name="allow_billable">true</field>
+            <field name="allow_timesheets">true</field>
+            <field name="allow_milestones">true</field>
+            <field name="allow_rating">true</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="ntropy_project_type_00" model="project.task.type">
+            <field name="name">Backlog</field>
+            <field name="sequence">0</field>
+            <field name="project_ids" eval="[(6,0,[ref('ntropy_demo_data_generator.demo_ntropy_project')])]"/>
+        </record>
+        <record id="ntropy_project_type_01" model="project.task.type">
+            <field name="name">Especificaciones</field>
+            <field name="sequence">1</field>
+            <field name="project_ids" eval="[(6,0,[ref('ntropy_demo_data_generator.demo_ntropy_project')])]"/>
+        </record>
+        <record id="ntropy_project_type_02" model="project.task.type">
+            <field name="name">En Progreso</field>
+            <field name="sequence">2</field>
+            <field name="project_ids" eval="[(6,0,[ref('ntropy_demo_data_generator.demo_ntropy_project')])]"/>
+        </record>
+        <record id="ntropy_project_type_03" model="project.task.type">
+            <field name="name">Pruebas</field>
+            <field name="sequence">3</field>
+            <field name="project_ids" eval="[(6,0,[ref('ntropy_demo_data_generator.demo_ntropy_project')])]"/>
+        </record>
+        <record id="ntropy_project_type_04" model="project.task.type">
+            <field name="name">Entregado</field>
+            <field name="sequence">4</field>
+            <field name="project_ids" eval="[(6,0,[ref('ntropy_demo_data_generator.demo_ntropy_project')])]"/>
+        </record>
+        <record id="demo_ntropy_product_01" model="product.template">
+            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/website_customer.png"/>
+            <field name="name">Consultoría Odoo</field>
+            <field name="default_code">ODOO</field>
+            <field name="detailed_type">service</field>
+            <field name="service_tracking">project_only</field>
+            <field name="project_template_id" ref="ntropy_demo_data_generator.demo_ntropy_project"/>
+            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_product_02"/>
+            <field name="unspsc_code_id">50729</field>
+            <field name="uom_id">4</field>
+            <field name="uom_po_id">4</field>
+        </record>
+        <record id="demo_ntropy_task_01" model="project.task">
+            <field name="name">Tarea 01</field>
+            <field name="user_ids" eval="[(6,0,[ref('ntropy_demo_data_generator.user_test_01')])]"/>
+            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_98"/>
+            <field name="sequence">10</field>
+            <field name="allocated_hours">8</field>
+            <field name="project_id" ref="ntropy_demo_data_generator.demo_ntropy_project"/>
+        </record>
+        <record id="demo_ntropy_task_02" model="project.task">
+            <field name="name">Tarea 02</field>
+            <field name="user_ids" eval="[(6,0,[ref('ntropy_demo_data_generator.user_test_01')])]"/>
+            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_98"/>
+            <field name="sequence">20</field>
+            <field name="allocated_hours">8</field>
+            <field name="project_id" ref="ntropy_demo_data_generator.demo_ntropy_project"/>
+        </record>
+        <record id="demo_ntropy_task_03" model="project.task">
+            <field name="name">Tarea 03</field>
+            <field name="user_ids" eval="[(6,0,[ref('ntropy_demo_data_generator.user_test_01')])]"/>
+            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_98"/>
+            <field name="sequence">30</field>
+            <field name="allocated_hours">8</field>
+            <field name="project_id" ref="ntropy_demo_data_generator.demo_ntropy_project"/>
+        </record>
+        <record id="demo_ntropy_task_04" model="project.task">
+            <field name="name">Tarea 04</field>
+            <field name="user_ids" eval="[(6,0,[ref('ntropy_demo_data_generator.user_test_01')])]"/>
+            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_98"/>
+            <field name="sequence">40</field>
+            <field name="allocated_hours">8</field>
+            <field name="project_id" ref="ntropy_demo_data_generator.demo_ntropy_project"/>
+        </record>
+        <record id="demo_ntropy_task_05" model="project.task">
+            <field name="name">Tarea 05</field>
+             <field name="user_ids" eval="[(6,0,[ref('ntropy_demo_data_generator.user_test_01')])]"/>
+            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_98"/>
+            <field name="sequence">50</field>
+            <field name="allocated_hours">8</field>
+            <field name="project_id" ref="ntropy_demo_data_generator.demo_ntropy_project"/>
+        </record>
+    </data>
+</odoo>

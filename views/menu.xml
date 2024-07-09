@@ -1,0 +1,19 @@
+<odoo>
+    <record model="ir.actions.act_window" id="action_ntropy_demo_data_generator">
+        <field name="name">Data Generator</field>
+        <field name="res_model">ntropy.demo.data.generator</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Click to create a new player
+            </p>
+        </field>
+    </record>
+
+    <menuitem id="ntropy_demo_menu_root" name="Ntropy Demo"
+              web_icon="ntropy_demo_data_generator,static/description/icon.png" sequence="10" groups="base.group_system"/>
+
+    <menuitem id="ntropy_demo_data_generator_menu" name="Data Generator"
+              parent="ntropy_demo_menu_root" action="action_ntropy_demo_data_generator" groups="base.group_system"/>
+
+</odoo>

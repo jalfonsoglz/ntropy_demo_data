@@ -1,0 +1,53 @@
+<odoo>
+    <data>
+        <record id="product.product_category_all" model="product.category">
+            <field name="name">Todos</field>
+            <field name="property_cost_method">average</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+        <record id="product.product_category_1" model="product.category">
+            <field name="name">Ventas</field>
+            <field name="property_cost_method">average</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+        <record id="product.cat_expense" model="product.category">
+            <field name="name">Gastos</field>
+            <field name="property_cost_method">average</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+        <record id="point_of_sale.product_category_pos" model="product.category">
+            <field name="name">Punto de Venta</field>
+            <field name="property_cost_method">average</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+        <record id="delivery.product_category_deliveries" model="product.category">
+            <field name="name">Entregas</field>
+            <field name="property_cost_method">average</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+        <record id="ntropy_category_product_01" model="product.category">
+            <field name="name">Productos</field>
+            <field name="parent_id" ref="product.product_category_1" />
+            <field name="property_cost_method">average</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+        <record id="ntropy_category_product_02" model="product.category">
+            <field name="name">Servicios</field>
+            <field name="parent_id" ref="product.product_category_1" />
+            <field name="property_cost_method">average</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+        <record id="ntropy_category_product_03" model="product.category">
+            <field name="name">Productos Importados</field>
+            <field name="parent_id" ref="product.product_category_1" />
+            <field name="property_cost_method">average</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+        <record id="ntropy_category_product_04" model="product.category">
+            <field name="name">Compras</field>
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="property_cost_method">average</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+    </data>
+</odoo>

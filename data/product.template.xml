@@ -1,0 +1,240 @@
+<odoo>
+    <data>
+        <record id="ntropy_product_01" model="product.template">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/website_customer.png"/>
+            <field name="name">Consultoría Empresarial</field>
+            <field name="default_code">CONSUL</field>
+            <field name="list_price">500</field>
+            <field name="standard_price">250</field>
+            <field name="detailed_type">service</field>
+            <field name="categ_id" ref="ntropy_category_product_02"/>
+            <field name="unspsc_code_id">50729</field>
+            <field name="uom_id">4</field>
+            <field name="uom_po_id">4</field>
+        </record>
+        <record id="ntropy_product_02" model="product.template">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="image_1920" type="base64"
+                   file="ntropy_demo_data_generator/static/icons/account_accountant.png"/>
+            <field name="name">Servicio de Contabilidad</field>
+            <field name="default_code">CONTA</field>
+            <field name="list_price">2000</field>
+            <field name="standard_price">1000</field>
+            <field name="detailed_type">service</field>
+            <field name="categ_id" ref="product.cat_expense"/>
+            <field name="unspsc_code_id">51541</field>
+            <field name="uom_id">4</field>
+            <field name="uom_po_id">4</field>
+        </record>
+        <record id="ntropy_product_03" model="product.template">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/hr_payroll.png"/>
+            <field name="name">Servicio de Recursos Humanos</field>
+            <field name="default_code">RRHH</field>
+            <field name="list_price">1000</field>
+            <field name="standard_price">500</field>
+            <field name="detailed_type">service</field>
+            <field name="categ_id" ref="product.cat_expense"/>
+            <field name="unspsc_code_id">50740</field>
+            <field name="uom_id">4</field>
+            <field name="uom_po_id">4</field>
+        </record>
+        <record id="ntropy_product_04" model="product.template">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/data_cleaning.png"/>
+            <field name="name">Servicio de mantenimiento de sistemas y redes</field>
+            <field name="default_code">SYSNET</field>
+            <field name="list_price">3000</field>
+            <field name="standard_price">1500</field>
+            <field name="detailed_type">service</field>
+            <field name="categ_id" ref="ntropy_category_product_02"/>
+            <field name="unspsc_code_id">51093</field>
+            <field name="uom_id">4</field>
+            <field name="uom_po_id">4</field>
+        </record>
+        <record id="ntropy_product_05" model="product.template">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/hr_payroll.png"/>
+            <field name="name">Nómina</field>
+            <field name="default_code">NOMINA</field>
+            <field name="list_price">0</field>
+            <field name="standard_price">1000</field>
+            <field name="detailed_type">service</field>
+            <field name="categ_id" ref="product.cat_expense"/>
+            <field name="unspsc_code_id">50740</field>
+            <field name="uom_id">27</field>
+            <field name="uom_po_id">27</field>
+        </record>
+        <record id="pos_sale.default_downpayment_product_product_template" model="product.template">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/downpayment.png"/>
+            <field name="name">Anticipo</field>
+            <field name="default_code">ANT</field>
+            <field name="list_price">0</field>
+            <field name="standard_price">0</field>
+            <field name="detailed_type">service</field>
+            <field name="categ_id" ref="product.product_category_1"/>
+            <field name="unspsc_code_id">51545</field>
+            <field name="uom_id">1</field>
+            <field name="uom_po_id">1</field>
+        </record>
+        <record id="point_of_sale.product_product_consumable_product_template" model="product.template">
+            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/discount.png"/>
+            <field name="name">Descuento</field>
+            <field name="default_code">DESC</field>
+            <field name="list_price">0</field>
+            <field name="standard_price">0</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_1"/>
+            <field name="unspsc_code_id">51545</field>
+            <field name="uom_id">1</field>
+            <field name="uom_po_id">1</field>
+        </record>
+        <record id="ntropy_product_08" model="product.template">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/warehouse.png"/>
+            <field name="name">Aduana</field>
+            <field name="default_code">ADUANA</field>
+            <field name="list_price">0</field>
+            <field name="standard_price">1000</field>
+            <field name="detailed_type">service</field>
+            <field name="categ_id" ref="product.cat_expense"/>
+            <field name="unspsc_code_id">50740</field>
+            <field name="uom_id">27</field>
+            <field name="uom_po_id">27</field>
+            <field name="landed_cost_ok">true</field>
+        </record>
+        <record id="delivery.product_product_delivery_product_template" model="product.template">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/transportation.png"/>
+            <field name="name">Servicios de Transportación</field>
+            <field name="default_code">FLETE</field>
+            <field name="list_price">0</field>
+            <field name="standard_price">1000</field>
+            <field name="detailed_type">service</field>
+            <field name="categ_id" ref="product.cat_expense"/>
+            <field name="unspsc_code_id">50606</field>
+            <field name="uom_id">27</field>
+            <field name="uom_po_id">27</field>
+            <field name="landed_cost_ok">true</field>
+        </record>
+        <record id="ntropy_product_10" model="product.template">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/product.png"/>
+            <field name="name">Producto Almacenable</field>
+            <field name="default_code">ALM-NAC</field>
+            <field name="list_price">1000</field>
+            <field name="standard_price">500</field>
+            <field name="detailed_type">product</field>
+            <field name="categ_id" ref="product.product_category_1"/>
+            <field name="unspsc_code_id">11256</field>
+            <field name="uom_id">1</field>
+            <field name="uom_po_id">1</field>
+        </record>
+        <record id="ntropy_product_10_supplierinfo" model="product.supplierinfo">
+            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_7"/>
+            <field name="delay">2</field>
+            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_10"/>
+            <field name="min_qty">0</field>
+            <field name="price">500</field>
+        </record>
+        <record id="ntropy_product_11" model="product.template">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/product.png"/>
+            <field name="name">Producto Importado</field>
+            <field name="default_code">ALM-IMP</field>
+            <field name="list_price">2000</field>
+            <field name="standard_price">1000</field>
+            <field name="detailed_type">product</field>
+            <field name="categ_id" ref="ntropy_category_product_03"/>
+            <field name="unspsc_code_id">17631</field>
+            <field name="uom_id">12</field>
+            <field name="uom_po_id">12</field>
+            <field name="weight">5</field>
+            <field name="l10n_mx_edi_umt_aduana_id">12</field>
+            <field name="l10n_mx_edi_tariff_fraction_id">11083</field>
+        </record>
+        <record id="ntropy_product_11_supplierinfo" model="product.supplierinfo">
+            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_7"/>
+            <field name="delay">2</field>
+            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_11"/>
+            <field name="min_qty">0</field>
+            <field name="price">500</field>
+        </record>
+        <record id="ntropy_product_12" model="product.template">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/invoice.png"/>
+            <field name="name">Cuenta por cobrar</field>
+            <field name="default_code">CXC</field>
+            <field name="list_price">0</field>
+            <field name="standard_price">0</field>
+            <field name="detailed_type">service</field>
+            <field name="categ_id" ref="product.product_category_1"/>
+            <field name="unspsc_code_id">51545</field>
+            <field name="uom_id">1</field>
+            <field name="uom_po_id">1</field>
+        </record>
+        <record id="ntropy_product_13" model="product.template">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/invoice.png"/>
+            <field name="name">Cuenta por pagar</field>
+            <field name="default_code">CXP</field>
+            <field name="list_price">0</field>
+            <field name="standard_price">0</field>
+            <field name="detailed_type">service</field>
+            <field name="categ_id" ref="product.cat_expense"/>
+            <field name="unspsc_code_id">51545</field>
+            <field name="uom_id">1</field>
+            <field name="uom_po_id">1</field>
+        </record>
+        <record id="ntropy_product_14" model="product.template">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/biohazard.png"/>
+            <field name="name">Material Peligroso</field>
+            <field name="default_code">MATPEL</field>
+            <field name="list_price">2800</field>
+            <field name="standard_price">1500</field>
+            <field name="detailed_type">product</field>
+            <field name="categ_id" ref="product.product_category_1"/>
+            <field name="unspsc_code_id">25772</field>
+            <field name="uom_id">12</field>
+            <field name="uom_po_id">12</field>
+            <field name="weight">5</field>
+            <field name="l10n_mx_edi_umt_aduana_id">12</field>
+            <field name="l10n_mx_edi_tariff_fraction_id">11083</field>
+            <field name="l10n_mx_edi_hazardous_material_code">1760</field>
+            <field name="l10n_mx_edi_material_type">03</field>
+            <field name="l10n_mx_edi_hazard_package_type">1A1</field>
+        </record>
+        <record id="ntropy_product_14_supplierinfo" model="product.supplierinfo">
+            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_7"/>
+            <field name="delay">2</field>
+            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_14"/>
+            <field name="min_qty">0</field>
+            <field name="price">500</field>
+        </record>
+        <record id="ntropy_product_15" model="product.template">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/product.png"/>
+            <field name="name">Producto MTO</field>
+            <field name="default_code">ALM-MTO</field>
+            <field name="list_price">1200</field>
+            <field name="standard_price">600</field>
+            <field name="detailed_type">product</field>
+            <field name="categ_id" ref="product.product_category_1"/>
+            <field name="route_ids"
+                   eval="[(4,ref('purchase_stock.route_warehouse0_buy'), ref('stock.route_warehouse0_mto'))]"/>
+            <field name="unspsc_code_id">11256</field>
+            <field name="uom_id">1</field>
+            <field name="uom_po_id">1</field>
+        </record>
+        <record id="ntropy_product_15_supplierinfo" model="product.supplierinfo">
+            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_7"/>
+            <field name="delay">2</field>
+            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_15"/>
+            <field name="min_qty">0</field>
+            <field name="price">600</field>
+        </record>
+    </data>
+</odoo>
