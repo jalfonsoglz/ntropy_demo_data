@@ -1,12 +1,12 @@
 <odoo>
     <data>
 <!--        <record id="point_of_sale.product_product_tip_product_template" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="active">false</field>-->
 <!--        </record>-->
         <record id="ntropy_product_pos_store_01" model="product.template">
-            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/product/00750105862010.jpg"/>
+            <field name="company_id" ref="ntropy_demo_data.second_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/product/00750105862010.jpg"/>
             <field name="name">Nescafé Clásico soluble 120 g</field>
             <field name="default_code">PRO01</field>
             <field name="barcode">7500456934445</field>
@@ -20,8 +20,8 @@
 <!--            <field name="taxes_id" eval="[(6,0,[ref('account.2_tax12')])]"/>-->
         </record>
         <record id="ntropy_product_pos_store_02" model="product.template">
-            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/product/00750100805734.jpg"/>
+            <field name="company_id" ref="ntropy_demo_data.second_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/product/00750100805734.jpg"/>
             <field name="name">Cereal Kellogg's Zucaritas 620 g</field>
             <field name="default_code">PRO02</field>
             <field name="barcode">7500503690430</field>
@@ -34,8 +34,8 @@
             <field name="uom_po_id">1</field>
         </record>
         <record id="ntropy_product_pos_store_03" model="product.template">
-            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/product/00750100011145.jpg"/>
+            <field name="company_id" ref="ntropy_demo_data.second_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/product/00750100011145.jpg"/>
             <field name="name">Pan integral Bimbo grande 680 g</field>
             <field name="default_code">PRO03</field>
             <field name="barcode">7500503690461</field>
@@ -48,8 +48,8 @@
             <field name="uom_po_id">1</field>
         </record>
         <record id="ntropy_product_pos_store_04" model="product.template">
-            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/product/00750047800583.jpg"/>
+            <field name="company_id" ref="ntropy_demo_data.second_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/product/00750047800583.jpg"/>
             <field name="name">Galletas Gamesa Bombitos 150 g</field>
             <field name="default_code">PRO04</field>
             <field name="barcode">7500503690485</field>
@@ -62,8 +62,8 @@
             <field name="uom_po_id">1</field>
         </record>
         <record id="ntropy_product_pos_store_05" model="product.template">
-            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/product/00000007500761.jpg"/>
+            <field name="company_id" ref="ntropy_demo_data.second_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/product/00000007500761.jpg"/>
             <field name="name">Refresco Coca-Cola botella de 600 ml</field>
             <field name="default_code">PRO05</field>
             <field name="barcode">7500154898377</field>
@@ -76,8 +76,8 @@
             <field name="uom_po_id">1</field>
         </record>
         <record id="ntropy_product_pos_store_06" model="product.template">
-            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/product/00750101113388.jpg"/>
+            <field name="company_id" ref="ntropy_demo_data.second_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/product/00750101113388.jpg"/>
             <field name="name">Botana Sabritas Original 160 g</field>
             <field name="default_code">PRO06</field>
             <field name="barcode">7500414472675</field>
@@ -90,8 +90,8 @@
             <field name="uom_po_id">1</field>
         </record>
         <record id="ntropy_product_pos_store_06" model="product.template">
-            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/product/00750105590003.jpg"/>
+            <field name="company_id" ref="ntropy_demo_data.second_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/product/00750105590003.jpg"/>
             <field name="name">Leche Alpura Clásica descremada 1 L</field>
             <field name="default_code">PRO07</field>
             <field name="barcode">7500503690478</field>
@@ -104,8 +104,8 @@
             <field name="uom_po_id">1</field>
         </record>
         <record id="ntropy_product_pos_store_07" model="product.template">
-            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/product/00750300055509.jpg"/>
+            <field name="company_id" ref="ntropy_demo_data.second_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/product/00750300055509.jpg"/>
             <field name="name">Huevo blanco San Juan 18 pzas</field>
             <field name="default_code">PRO08</field>
             <field name="barcode">7500503760829</field>
@@ -118,8 +118,8 @@
             <field name="uom_po_id">1</field>
         </record>
         <record id="ntropy_product_pos_store_08" model="product.template">
-            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/product/00750104000384.jpg"/>
+            <field name="company_id" ref="ntropy_demo_data.second_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/product/00750104000384.jpg"/>
             <field name="name">Jamón de pavo FUD virginia 450g</field>
             <field name="default_code">PRO09</field>
             <field name="barcode">7500503690447</field>
@@ -134,8 +134,8 @@
 <!--            <field name="property_account_income_id" ref="account.2_cuenta501_01"/>-->
         </record>
         <record id="ntropy_product_pos_store_09" model="product.template">
-            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/product/00750103912209.jpg"/>
+            <field name="company_id" ref="ntropy_demo_data.second_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/product/00750103912209.jpg"/>
             <field name="name">Aceite Sabrosano mantequilla 850 ml</field>
             <field name="default_code">PRO10</field>
             <field name="barcode">193015522435</field>
@@ -165,16 +165,16 @@
 <!--            <field name="parent_id" ref="point_of_sale.product_category_pos"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_01" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/BX8071513100.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/BX8071513100.jpg"/>-->
 <!--            <field name="name">Procesador Intel Core i3-13100 Intel UHD Graphics 730, S-1700, 3.40GHz, Quad-Core, 12MB-->
 <!--            </field>-->
 <!--            <field name="default_code">BX8071513100</field>-->
 <!--            <field name="list_price">2689</field>-->
 <!--            <field name="standard_price">1600</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -182,23 +182,23 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_01_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_01"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_01"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">1600</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_02" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/BX8071513400.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/BX8071513400.jpg"/>-->
 <!--            <field name="name">Procesador Intel Core i5-13400 Intel UHD Graphics 730, S-1700, 2.50GHz, 10-Core, 20MB-->
 <!--            </field>-->
 <!--            <field name="default_code">BX8071513400</field>-->
 <!--            <field name="list_price">4657</field>-->
 <!--            <field name="standard_price">2700</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -206,23 +206,23 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_02_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_02"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_02"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">2700</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_03" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/BX8071513700.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/BX8071513700.jpg"/>-->
 <!--            <field name="name">Procesador Intel Core i7-13700 Intel Graphics UHD 770, S-1700, 2.10GHz, 16-Core, 30MB-->
 <!--            </field>-->
 <!--            <field name="default_code">BX8071513700</field>-->
 <!--            <field name="list_price">8216</field>-->
 <!--            <field name="standard_price">4900</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -230,23 +230,23 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_03_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_03"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_03"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">4900</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_04" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/BX8071514900K.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/BX8071514900K.jpg"/>-->
 <!--            <field name="name">Procesador Intel Core i9-14900K, Intel UHD Graphics 770, S-1700, 3.20GHz, 24-Core, 36MB-->
 <!--            </field>-->
 <!--            <field name="default_code">BX8071514900K</field>-->
 <!--            <field name="list_price">12209</field>-->
 <!--            <field name="standard_price">7300</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -254,23 +254,23 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_04_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_04"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_04"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">7300</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_05" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/KF437C19BB1K2-X2.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/KF437C19BB1K2-X2.jpg"/>-->
 <!--            <field name="name">Kit Memoria RAM Kingston FURY Beast DDR4, 3733MHz, 32GB (2 x 16GB), Non-ECC, CL19, XMP-->
 <!--            </field>-->
 <!--            <field name="default_code">KF437C19BB1K2-X2</field>-->
 <!--            <field name="list_price">1729</field>-->
 <!--            <field name="standard_price">1037</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -278,23 +278,23 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_05_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_05"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_05"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">1037</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_06" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/PVSR464G320C8K.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/PVSR464G320C8K.jpg"/>-->
 <!--            <field name="name">Memoria RAM Patriot Viper Steel RGB DDR4, 3200MHz, 64GB (2x 32GB), Non-ECC, CL18, XMP-->
 <!--            </field>-->
 <!--            <field name="default_code">PVSR464G320C8K</field>-->
 <!--            <field name="list_price">2279</field>-->
 <!--            <field name="standard_price">1367</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -302,16 +302,16 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_06_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_06"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_06"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">1367</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_07" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/KF556R36RBK4-128.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/KF556R36RBK4-128.jpg"/>-->
 <!--            <field name="name">Kit Memoria RAM Kingston FURY Renegade Pro DDR5, 5600MHz, 128GB (4 x 32GB), ECC, CL36,-->
 <!--                XMP-->
 <!--            </field>-->
@@ -319,7 +319,7 @@
 <!--            <field name="list_price">11599</field>-->
 <!--            <field name="standard_price">6959</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -327,16 +327,16 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_07_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_07"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_07"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">6959</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_08" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/ST2000DM008.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/ST2000DM008.jpg"/>-->
 <!--            <field name="name">Disco Duro Interno Seagate Barracuda 3.5'', 2TB, SATA III, 6 Gbit/s, 7200RPM, 256MB-->
 <!--                Cache-->
 <!--            </field>-->
@@ -344,7 +344,7 @@
 <!--            <field name="list_price">1109</field>-->
 <!--            <field name="standard_price">665</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -352,22 +352,22 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_08_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_08"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_08"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">665</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_09" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/SKC600-1024G.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/SKC600-1024G.jpg"/>-->
 <!--            <field name="name">SSD Kingston KC600 NAND 3D TLC, 1TB, SATA III, 2.5'', 7mm</field>-->
 <!--            <field name="default_code">SKC600-1024G</field>-->
 <!--            <field name="list_price">1659</field>-->
 <!--            <field name="standard_price">995</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -375,22 +375,22 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_09_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_09"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_09"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">995</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_10" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/AGAMMIXS70B-2T-CS.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/AGAMMIXS70B-2T-CS.jpg"/>-->
 <!--            <field name="name">SSD XPG GAMMIX S70 BLADE NVMe, 2TB, PCI Express 4.0, M.2</field>-->
 <!--            <field name="default_code">AGAMMIXS70B-2T-CS</field>-->
 <!--            <field name="list_price">2419</field>-->
 <!--            <field name="standard_price">1451</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -398,16 +398,16 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_10_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_10"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_10"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">1451</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_11" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/CA-1R1-00S1WN-02.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/CA-1R1-00S1WN-02.jpg"/>-->
 <!--            <field name="name">Gabinete Thermaltake V150 con Ventana, Micro-Tower, micro ATX, Mini-ITX, USB 2.0, sin-->
 <!--                Fuente, 3 Ventiladores Instalados ARGB, Negro-->
 <!--            </field>-->
@@ -415,7 +415,7 @@
 <!--            <field name="list_price">1109</field>-->
 <!--            <field name="standard_price">600</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -423,16 +423,16 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_11_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_11"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_11"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">600</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_12" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/90DC0013-B40000.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/90DC0013-B40000.jpg"/>-->
 <!--            <field name="name">Gabinete Gamer ASUS TUF Gaming GT501 con Ventana RGB, Midi Tower, ATX/EATX/micro-->
 <!--                ATX/Mini-ITX, USB 3.1, sin Fuente, Blanco-->
 <!--            </field>-->
@@ -440,7 +440,7 @@
 <!--            <field name="list_price">3505</field>-->
 <!--            <field name="standard_price">2100</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -448,16 +448,16 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_12_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_12"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_12"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">2100</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_13" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/H700E-IGNN-S00.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/H700E-IGNN-S00.jpg"/>-->
 <!--            <field name="name">Gabinete Cooler Master HAF 700 EVO con Ventana, Full Tower,-->
 <!--                ATX/EATX/EEB/Micro-ATX/Mini-ATX/SSI CEB, USB 3.0, sin Fuente, 5 Ventiladores ARGB Instalados, Gris-->
 <!--            </field>-->
@@ -465,7 +465,7 @@
 <!--            <field name="list_price">8129</field>-->
 <!--            <field name="standard_price">4800</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -473,22 +473,22 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_13_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_13"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_13"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">4800</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_14" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/110-BQ-0750-V1.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/110-BQ-0750-V1.jpg"/>-->
 <!--            <field name="name">Fuente de Poder EVGA 750 BQ 80 PLUS Bronze, 24-pin ATX, 140mm, 750W</field>-->
 <!--            <field name="default_code">110-BQ-0750-V1</field>-->
 <!--            <field name="list_price">2059</field>-->
 <!--            <field name="standard_price">999</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -496,22 +496,22 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_14_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_14"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_14"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">999</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_15" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/90YE00A5-B0AA00.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/90YE00A5-B0AA00.jpg"/>-->
 <!--            <field name="name">Fuente de Poder ASUS ROG STRIX 1000G 80 PLUS Gold, 20+4 pin ATX, 1000W</field>-->
 <!--            <field name="default_code">90YE00A5-B0AA00</field>-->
 <!--            <field name="list_price">3689</field>-->
 <!--            <field name="standard_price">2213</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -519,23 +519,23 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_15_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_15"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_15"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">2213</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_16" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/MPZ-D001-AFBAPV.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/MPZ-D001-AFBAPV.jpg"/>-->
 <!--            <field name="name">Fuente de Poder Cooler Master V1300 Platino 80 PLUS Platinum, 24-pin ATX, 135mm, 1300W-->
 <!--            </field>-->
 <!--            <field name="default_code">MPZ-D001-AFBAPV</field>-->
 <!--            <field name="list_price">6169</field>-->
 <!--            <field name="standard_price">3700</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -543,16 +543,16 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_16_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_16"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_16"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">3700</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_17" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/GIGABYTE-GV-N1656OC.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/GIGABYTE-GV-N1656OC.jpg"/>-->
 <!--            <field name="name">Tarjeta de Video Gigabyte NVIDIA GeForce GTX 1650 D6 OC rev. 2.0, 4GB 128-bit GDDR6, PCI-->
 <!--                Express x16 3.0-->
 <!--            </field>-->
@@ -560,7 +560,7 @@
 <!--            <field name="list_price">3369</field>-->
 <!--            <field name="standard_price">2021</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -568,16 +568,16 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_17_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_17"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_17"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">2021</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_18" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/90YV0GC0-M0NA10.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/90YV0GC0-M0NA10.jpg"/>-->
 <!--            <field name="name">Tarjeta de Video ASUS NVIDIA TUF Gaming GeForce RTX 3060 V2 OC, 12GB 192-bit GDDR6, PCI-->
 <!--                Express 4.0-->
 <!--            </field>-->
@@ -585,7 +585,7 @@
 <!--            <field name="list_price">8809</field>-->
 <!--            <field name="standard_price">5300</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -593,16 +593,16 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_18_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_18"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_18"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">5300</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_19" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/SUS-TUF-RTX4070TI-O12G.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/SUS-TUF-RTX4070TI-O12G.jpg"/>-->
 <!--            <field name="name">Tarjeta de Video ASUS NVIDIA TUF Gaming GeForce RTX 4070 Ti OC, 12GB 192-bit GDDR6X, PCI-->
 <!--                Express 4.0-->
 <!--            </field>-->
@@ -610,7 +610,7 @@
 <!--            <field name="list_price">17150</field>-->
 <!--            <field name="standard_price">15909</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -618,22 +618,22 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_19_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_19"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_19"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">15909</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_20" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/XZMXZ30B.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/XZMXZ30B.jpg"/>-->
 <!--            <field name="name">Monitor Gamer XZEAL XZ3010 LED 23.8", Full HD, FreeSync, 144Hz, HDMI, Negro</field>-->
 <!--            <field name="default_code">XZMXZ30B</field>-->
 <!--            <field name="list_price">2379</field>-->
 <!--            <field name="standard_price">1440</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -641,16 +641,16 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_20_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_20"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_20"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">1440</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_21" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/HT32CGMBK03.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/HT32CGMBK03.jpg"/>-->
 <!--            <field name="name">Monitor Gamer Curvo Hyundai HT32CGMBK03 LED 32", Wide Quad HD, G-Sync/FreeSync, 165Hz,-->
 <!--                HDMI, Negro-->
 <!--            </field>-->
@@ -658,7 +658,7 @@
 <!--            <field name="list_price">4289</field>-->
 <!--            <field name="standard_price">2573</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -666,16 +666,16 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_21_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_21"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_21"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">2573</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_22" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/CM-9020006-NA.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/CM-9020006-NA.jpg"/>-->
 <!--            <field name="name">Monitor Gamer Corsair Xeneon ​32UHD144-A LED 32" 4K Ultra HD, G-Sync/FreeSync, 144Hz,-->
 <!--                HDMI, Negro-->
 <!--            </field>-->
@@ -683,7 +683,7 @@
 <!--            <field name="list_price">14599</field>-->
 <!--            <field name="standard_price">8799</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -691,16 +691,16 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_22_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_22"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_22"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">8799</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_23" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/YKM-ERGB-02.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/YKM-ERGB-02.jpg"/>-->
 <!--            <field name="name">Teclado Gamer Yeyian Kusari RGB, Teclado Mecánico, Switch Outemu Blue, Alámbrico, Negro-->
 <!--                (Español)-->
 <!--            </field>-->
@@ -708,7 +708,7 @@
 <!--            <field name="list_price">589</field>-->
 <!--            <field name="standard_price">353</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -716,16 +716,16 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_23_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_23"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_23"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">353</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_24" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/CH-910971E-SP.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/CH-910971E-SP.jpg"/>-->
 <!--            <field name="name">Teclado Gamer Corsair K70 Core RGB, Teclado Mecánico, Switch Cherry MLX Red, Alámbrico,-->
 <!--                Negro (Español)-->
 <!--            </field>-->
@@ -733,7 +733,7 @@
 <!--            <field name="list_price">1439</field>-->
 <!--            <field name="standard_price">861</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -741,16 +741,16 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_24_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_24"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_24"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">861</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_25" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/M601-ROG-FALCHION.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/M601-ROG-FALCHION.jpg"/>-->
 <!--            <field name="name">Teclado Gamer ASUS M601 ROG Falchion NX RGB 65%, Teclado Mecánico, Switch ROG NX Brown,-->
 <!--                Inalámbrico, Negro (Inglés)-->
 <!--            </field>-->
@@ -758,7 +758,7 @@
 <!--            <field name="list_price">2709</field>-->
 <!--            <field name="standard_price">1625</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -766,22 +766,22 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_25_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_25"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_25"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">162</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_26" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/910-005793.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/910-005793.jpg"/>-->
 <!--            <field name="name">Mouse Gamer Logitech Óptico G203 LightSync, Alámbrico, USB, 8000DPI, Negro</field>-->
 <!--            <field name="default_code">910-005793</field>-->
 <!--            <field name="list_price">478</field>-->
 <!--            <field name="standard_price">286</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -789,16 +789,16 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_26_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_26"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_26"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">286</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_27" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/4P5E3AA.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/4P5E3AA.jpg"/>-->
 <!--            <field name="name">Mouse Gamer Ergonómico HyperX Óptico Pulsefire Haste, Alámbrico, USB A, 16.000DPI,-->
 <!--                Negro/Rojo-->
 <!--            </field>-->
@@ -806,7 +806,7 @@
 <!--            <field name="list_price">1129</field>-->
 <!--            <field name="standard_price">599</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -814,22 +814,22 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_27_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_27"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_27"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">599</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_28" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/CH-931A011-NA.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/CH-931A011-NA.jpg"/>-->
 <!--            <field name="name">Mouse Gamer Corsair Óptico Darkstar, Inalámbrico, USB, 26000DPI, Negro</field>-->
 <!--            <field name="default_code">CH-931A011-NA</field>-->
 <!--            <field name="list_price">2449</field>-->
 <!--            <field name="standard_price">1469</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -837,16 +837,16 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_28_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_28"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_28"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">1469</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_29" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/ROGSTRIXZ790.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/ROGSTRIXZ790.jpg"/>-->
 <!--            <field name="name">Tarjeta Madre ASUS ATX ROG STRIX Z790-E GAMING WIFI, S-1700, Intel Z790, HDMI, 128GB DDR5-->
 <!--                para Intel-->
 <!--            </field>-->
@@ -854,7 +854,7 @@
 <!--            <field name="list_price">7780</field>-->
 <!--            <field name="standard_price">4600</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -862,23 +862,23 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_29_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_29"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_29"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">4600</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_30" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/MSI-PROZ790.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/MSI-PROZ790.jpg"/>-->
 <!--            <field name="name">Tarjeta Madre MSI ATX PRO Z790-P WIFI, S-1700, Intel Z790, HDMI, 128GB DDR5 para Intel-->
 <!--            </field>-->
 <!--            <field name="default_code">MSI-PROZ790</field>-->
 <!--            <field name="list_price">4462</field>-->
 <!--            <field name="standard_price">2677</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -886,16 +886,16 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_30_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_30"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_30"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">2677</field>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_31" model="product.template">-->
-<!--            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>-->
+<!--            <field name="company_id" ref="ntropy_demo_data.second_company"/>-->
 <!--            <field name="image_1920" type="base64"-->
-<!--                   file="ntropy_demo_data_generator/static/pos_product/GIGABYTE-Z790AORUS.jpg"/>-->
+<!--                   file="ntropy_demo_data/static/pos_product/GIGABYTE-Z790AORUS.jpg"/>-->
 <!--            <field name="name">Tarjeta Madre AORUS ATX Z790 AOURUS ELITE AX DDR4, S-1700, Intel Z790, HDMI, 128GB DDR4-->
 <!--                para Intel-->
 <!--            </field>-->
@@ -903,7 +903,7 @@
 <!--            <field name="list_price">5999</field>-->
 <!--            <field name="standard_price">3600</field>-->
 <!--            <field name="detailed_type">product</field>-->
-<!--            <field name="categ_id" ref="ntropy_demo_data_generator.ntropy_category_pos_00"/>-->
+<!--            <field name="categ_id" ref="ntropy_demo_data.ntropy_category_pos_00"/>-->
 <!--            <field name="unspsc_code_id">24115</field>-->
 <!--            <field name="uom_id">1</field>-->
 <!--            <field name="uom_po_id">1</field>-->
@@ -911,9 +911,9 @@
 <!--            <field name="supplier_taxes_id" eval="[(6,0,[ref('account.2_tax14')])]"/>-->
 <!--        </record>-->
 <!--        <record id="ntropy_product_pos_31_supplierinfo" model="product.supplierinfo">-->
-<!--            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_6"/>-->
+<!--            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_6"/>-->
 <!--            <field name="delay">2</field>-->
-<!--            <field name="product_tmpl_id" ref="ntropy_demo_data_generator.ntropy_product_pos_31"/>-->
+<!--            <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_pos_31"/>-->
 <!--            <field name="min_qty">0</field>-->
 <!--            <field name="price">3600</field>-->
 <!--        </record>-->

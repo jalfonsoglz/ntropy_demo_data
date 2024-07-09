@@ -14,11 +14,11 @@
         </record>
         <record model="l10n_mx_edi.figure" id="figure_test_01">
             <field name="type">01</field>
-            <field name="vehicle_id" ref="ntropy_demo_data_generator.vehicle_test_01"/>
-            <field name="operator_id" ref="ntropy_demo_data_generator.ntropy_partner_27"/>
+            <field name="vehicle_id" ref="ntropy_demo_data.vehicle_test_01"/>
+            <field name="operator_id" ref="ntropy_demo_data.ntropy_partner_27"/>
         </record>
         <record model="l10n_mx_edi.trailer" id="trailer_test_01">
-            <field name="vehicle_id" ref="ntropy_demo_data_generator.vehicle_test_01"/>
+            <field name="vehicle_id" ref="ntropy_demo_data.vehicle_test_01"/>
             <field name="name">T12314</field>
             <field name="sub_type">CTR002</field>
         </record>

@@ -44,7 +44,7 @@ class NtropyDemoDataGenerator(models.Model):
                 'is_company': False,
                 'customer_rank': True,
                 'supplier_rank': False,
-                # 'category_id': self.env.ref('ntropy_demo_data_generator.user_test_category').id,
+                # 'category_id': self.env.ref('ntropy_demo_data.user_test_category').id,
                 # 'bank_id': random.randint(1, 93),
                 # 'acc_number': bank_account,
                 # 'acc_holder_name': name,
@@ -248,7 +248,7 @@ class NtropyDemoDataGenerator(models.Model):
             random_date = datetime.strptime(random_date_str, '%Y-%m-%d').date()
             if partner_id and product_id:
                 customer_invoice_40_obj.create({
-                    'journal_id': self.env.ref('ntropy_demo_data_generator.account_journal_mx_sale_invoice').id,
+                    'journal_id': self.env.ref('ntropy_demo_data.account_journal_mx_sale_invoice').id,
                     'move_type': 'out_invoice',
                     'auto_post': 'at_date',
                     'invoice_date': random_date,
@@ -340,7 +340,7 @@ class NtropyDemoDataGenerator(models.Model):
             random_date = datetime.strptime(random_date_str, '%Y-%m-%d').date()
             if partner_id and product_id:
                 customer_credit_note_obj.create({
-                    'journal_id': self.env.ref('ntropy_demo_data_generator.account_journal_mx_sale_credit_note').id,
+                    'journal_id': self.env.ref('ntropy_demo_data.account_journal_mx_sale_credit_note').id,
                     'move_type': 'out_refund',
                     'auto_post': 'at_date',
                     'invoice_date': random_date,
@@ -391,7 +391,7 @@ class NtropyDemoDataGenerator(models.Model):
             random_date = datetime.strptime(random_date_str, '%Y-%m-%d').date()
             if partner_id and product_id:
                 supplier_credit_note_obj.create({
-                    'journal_id': self.env.ref('ntropy_demo_data_generator.account_journal_mx_purchase_credit_note').id,
+                    'journal_id': self.env.ref('ntropy_demo_data.account_journal_mx_purchase_credit_note').id,
                     'move_type': 'in_refund',
                     'auto_post': 'at_date',
                     'invoice_date': random_date,

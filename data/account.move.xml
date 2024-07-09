@@ -4,7 +4,7 @@
     <data>
         <!--Creación facturas de ejemplo-->
         <record id="sample_invoice_01_mx" model="account.move">
-            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_partner_7"/>
+            <field name="partner_id" ref="ntropy_demo_data.ntropy_partner_7"/>
             <field name="invoice_date">2023-12-01</field>
             <field name="auto_post">at_date</field>
             <field name="payment_reference">FACC/2023/12/01</field>
@@ -20,8 +20,8 @@
             <field name="state">draft</field>
         </record>
         <record id="sample_invoice_lines_01" model="account.move.line">
-            <field name="move_id" ref="ntropy_demo_data_generator.sample_invoice_01"/>
-            <field name="product_id" ref="ntropy_demo_data_generator.ntropy_product_01"/>
+            <field name="move_id" ref="ntropy_demo_data.sample_invoice_01"/>
+            <field name="product_id" ref="ntropy_demo_data.ntropy_product_01"/>
             <field name="name">Consultoria Diciembre 2023</field>
             <field name="quantity">1</field>
         </record>

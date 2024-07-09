@@ -19,14 +19,14 @@
             <field name="acc_number">2110260827</field>
             <field name="bank_id" ref="l10n_mx.acc_bank_072_BANORTE"/>
             <field name="l10n_mx_edi_clabe">01218002110260827</field>
-            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_user_12"/>
+            <field name="partner_id" ref="ntropy_demo_data.ntropy_user_12"/>
 <!--            <field name="allow_out_payment">true</field>-->
         </record>
 <!--        EMPLEADOS-->
         <record id="employee_test_12" model="hr.employee">
             <field name="name">Adriana Reyes</field>
-            <field name="user_id" ref="ntropy_demo_data_generator.user_test_12"/>
-            <field name="user_partner_id" ref="ntropy_demo_data_generator.ntropy_user_12"/>
+            <field name="user_id" ref="ntropy_demo_data.user_test_12"/>
+            <field name="user_partner_id" ref="ntropy_demo_data.ntropy_user_12"/>
             <field name="work_location_id" ref="hr.home_work_location"/>
             <field name="department_id" ref="department_contabilidad"/>
             <field name="job_id" ref="job_auxiliar"/>
@@ -36,7 +36,7 @@
             <field name="registration_number">202001</field>
             <field name="identification_id">183657717</field>
             <field name="lang">es_MX</field>
-            <field name="bank_account_id" ref="ntropy_demo_data_generator.sample_bank_accounts_05"/>
+            <field name="bank_account_id" ref="ntropy_demo_data.sample_bank_accounts_05"/>
             <field name="leave_manager_id" ref="base.user_admin"/>
             <field name="timesheet_manager_id" ref="base.user_admin"/>
             <field name="attendance_manager_id" ref="base.user_admin"/>

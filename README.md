@@ -7,7 +7,7 @@
 [//]: # (1. This module needs the Python library Faker, otherwise it create demo data be installed and used. Install Faker through the command: <code>sudo pip install Faker</code>)
 
 1. Install `account` and set México as Company Country.
-2. Install `ntropy_demo_data_generator` module.
+2. Install `ntropy_demo_data` module.
 
 ## 2. Introduction
 
@@ -61,10 +61,10 @@ Incoming:
 
 ### Validez Obligaciones
 
-1. Habilitado para facturar (IVA exento, tasa 0% y 16%)
-2. Habilitado para facturar (IVA exento, tasa 0%, 8% y 16%) Zona Fronteriza Norte
-3. Habilitado para facturar (IVA exento, tasa 0%, 8% y 16%) Zona Fronteriza Sur
-4. Habilitado para facturar (IVA exento, tasa 0%, 8% y 16%) Zona Fronteriza Norte y Sur
+1. Invoicing Enable: (IVA exento, tasa 0% y 16%)
+2. Invoicing Enable: (IVA exento, tasa 0%, 8% y 16%) Zona Fronteriza Norte
+3. Invoicing Enable: (IVA exento, tasa 0%, 8% y 16%) Zona Fronteriza Sur
+4. Invoicing Enable: (IVA exento, tasa 0%, 8% y 16%) Zona Fronteriza Norte y Sur
 
 | RFC           | Nombre/Razón Social                           | CP    | Regimen                                                              | Retención | Tipo   | Notas                        |
 |---------------|-----------------------------------------------|-------|----------------------------------------------------------------------|-----------|--------|------------------------------|
@@ -104,18 +104,6 @@ Incoming:
 | URE180429TM6  | UNIVERSIDAD ROBOTICA ESPAÑOLA                 | 86991 | 603 - Personas morales con fines no lucrativos                       | 1         | Moral  | Proveedor                    |
 
 ## 5. Workflows
-
-1. Customer Invoice
-    * Normal Invoice
-    * Down Payment Invoice
-    * Credit Note
-    * CFDI to Public
-2. Payment Complements
-3. Invoice cancellations
-    * Invoices sent with errors with a relation (Type 1)
-    * Invoices sent with errors without a relation (Type 2)
-4. External Trade
-5. Delivery Guide
 
 ## 6. Changelog
 

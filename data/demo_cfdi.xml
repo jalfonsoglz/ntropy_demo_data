@@ -2,8 +2,8 @@
 <odoo>
     <data>
         <record id="certificate" model="l10n_mx_edi.certificate">
-            <field name="content" type="base64" file="ntropy_demo_data_generator/pac_credentials/certificate.cer"/>
-            <field name="key" type="base64" file="ntropy_demo_data_generator/pac_credentials/certificate.key"/>
+            <field name="content" type="base64" file="ntropy_demo_data/pac_credentials/certificate.cer"/>
+            <field name="key" type="base64" file="ntropy_demo_data/pac_credentials/certificate.key"/>
             <field name="serial_number">30001000000500003416</field>
             <field name="password">12345678a</field>
         </record>

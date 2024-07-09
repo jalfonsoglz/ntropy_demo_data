@@ -52,14 +52,14 @@
             <field name="sequence">3</field>
             <field name="type">sale</field>
             <field name="code">NDC</field>
-            <field name="default_account_id" ref="ntropy_demo_data_generator.Cuenta402_01_01"/>
+            <field name="default_account_id" ref="ntropy_demo_data.Cuenta402_01_01"/>
         </record>
         <record id="account_journal_mx_purchase_credit_note" model="account.journal">
             <field name="name">Notas de crédito de proveedores</field>
             <field name="sequence">5</field>
             <field name="type">purchase</field>
             <field name="code">NDCP</field>
-            <field name="default_account_id" ref="ntropy_demo_data_generator.Cuenta503_01_01"/>
+            <field name="default_account_id" ref="ntropy_demo_data.Cuenta503_01_01"/>
         </record>
         <record id="account_journal_mx_tax" model="account.journal">
             <field name="sequence">32</field>
@@ -74,7 +74,7 @@
             <field name="code">BBVA</field>
             <field name="currency_id" ref="base.MXN"/>
             <field name="default_account_id" ref="account_account_bank_mx"/>
-            <field name="bank_account_id" ref="ntropy_demo_data_generator.sample_bank_accounts_01"/>
+            <field name="bank_account_id" ref="ntropy_demo_data.sample_bank_accounts_01"/>
         </record>
         <record id="account_journal_bank_usd" model="account.journal">
             <field name="name">MONEX 56789</field>
@@ -83,7 +83,7 @@
             <field name="code">MONEX</field>
             <field name="currency_id" ref="base.USD"/>
             <field name="default_account_id" ref="account_account_bank_usd"/>
-            <field name="bank_account_id" ref="ntropy_demo_data_generator.sample_bank_accounts_02"/>
+            <field name="bank_account_id" ref="ntropy_demo_data.sample_bank_accounts_02"/>
         </record>
         <record id="account_journal_bank_eur" model="account.journal">
             <field name="name">DEUTSCHE 1590</field>
@@ -92,7 +92,7 @@
             <field name="code">DEUTSCHE</field>
             <field name="currency_id" ref="base.EUR"/>
             <field name="default_account_id" ref="account_account_bank_eur"/>
-            <field name="bank_account_id" ref="ntropy_demo_data_generator.sample_bank_accounts_03"/>
+            <field name="bank_account_id" ref="ntropy_demo_data.sample_bank_accounts_03"/>
         </record>
         <record id="account_journal_bank_jpy" model="account.journal">
             <field name="name">INTERBANCO 7530</field>
@@ -101,7 +101,7 @@
             <field name="code">INTER</field>
             <field name="currency_id" ref="base.JPY"/>
             <field name="default_account_id" ref="account_account_bank_jpy"/>
-            <field name="bank_account_id" ref="ntropy_demo_data_generator.sample_bank_accounts_04"/>
+            <field name="bank_account_id" ref="ntropy_demo_data.sample_bank_accounts_04"/>
         </record>
     </data>
 </odoo>

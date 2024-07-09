@@ -1,7 +1,7 @@
 <odoo>
     <data>
         <record id="ntropy_category_pos_store_01" model="pos.category">
-            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>
+            <field name="company_id" ref="ntropy_demo_data.second_company"/>
             <field name="name">Miscelánea</field>
             <field name="sequence">10</field>
         </record>

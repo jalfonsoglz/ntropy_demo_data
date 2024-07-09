@@ -3,14 +3,14 @@
     <data>
 <!--Instalación de Certificados de Prueba-->
         <record id="certificate" model="l10n_mx_edi.certificate">
-            <field name="content" type="base64" file="ntropy_demo_data_generator/pac_credentials/certificate.cer"/>
-            <field name="key" type="base64" file="ntropy_demo_data_generator/pac_credentials/certificate.key"/>
+            <field name="content" type="base64" file="ntropy_demo_data/pac_credentials/certificate.cer"/>
+            <field name="key" type="base64" file="ntropy_demo_data/pac_credentials/certificate.key"/>
 		<field name="serial_number">30001000000500003416</field>
             <field name="password">12345678a</field>
         </record>
 <!--Configuración de Compañia Base-->
         <record id="base.main_partner" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/company.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/company.png"/>
             <field name="name">ERP Solutions</field>
             <field name="vat">EKU9003173C9</field>
             <field name="street">Campobasso Norte 32006</field>
@@ -51,8 +51,8 @@
             <field name="currency_provider">banxico</field>
             <field name="currency_interval_unit">daily</field>
             <field name="currency_next_execution_date">2024-01-01</field>
-            <field name="account_tax_periodicity_journal_id" ref="ntropy_demo_data_generator.account_journal_mx_tax" />
-<!--            <field name="property_account_receivable_id" ref="ntropy_demo_data_generator.ntropy_product_06" />-->
+            <field name="account_tax_periodicity_journal_id" ref="ntropy_demo_data.account_journal_mx_tax" />
+<!--            <field name="property_account_receivable_id" ref="ntropy_demo_data.ntropy_product_06" />-->
             <field name="l10n_mx_edi_num_exporter">123456789</field>
         </record>
 

@@ -5,7 +5,7 @@
         <!--        1. Creacion de Partner-->
 
         <record id="second_pos_partner" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/pos_company.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/pos_company.png"/>
             <field name="name">POS-Store</field>
             <field name="vat">GOSJ870817T63</field>
             <field name="street">Campobasso Norte 32006</field>
@@ -34,9 +34,9 @@
 
         <record id="second_company" model="res.company">
             <field name="name">POS-Store</field>
-            <field name="partner_id" ref="ntropy_demo_data_generator.second_pos_partner"/>
+            <field name="partner_id" ref="ntropy_demo_data.second_pos_partner"/>
             <field name="chart_template">mx</field>
-            <field name="logo" type="base64" file="ntropy_demo_data_generator/static/icons/pos_company.png"/>
+            <field name="logo" type="base64" file="ntropy_demo_data/static/icons/pos_company.png"/>
 
             <!--Configuraciones default de la Compañia-->
 
@@ -65,15 +65,15 @@
 
         <!--        Instalación de Certificados de Prueba-->
         <record id="second_certificate" model="l10n_mx_edi.certificate">
-            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>
-            <field name="content" type="base64" file="ntropy_demo_data_generator/pac_credentials/certificate.cer"/>
-            <field name="key" type="base64" file="ntropy_demo_data_generator/pac_credentials/certificate.key"/>
+            <field name="company_id" ref="ntropy_demo_data.second_company"/>
+            <field name="content" type="base64" file="ntropy_demo_data/pac_credentials/certificate.cer"/>
+            <field name="key" type="base64" file="ntropy_demo_data/pac_credentials/certificate.key"/>
             <field name="serial_number">30001000000500003416</field>
             <field name="password">12345678a</field>
         </record>
         <record id="second_company_res_settings" model="res.config.settings">
             <!--          Configuraciones default de la base de datos-->
-            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>
+            <field name="company_id" ref="ntropy_demo_data.second_company"/>
             <field name="default_purchase_method">purchase</field>
             <field name="use_invoice_terms">1</field>
             <field name="digest_emails">false</field>
@@ -104,14 +104,14 @@
         </record>
         <!--        Creacion de Diarios Contables-->
         <record id="account_journal_mx_tax_2" model="account.journal">
-            <field name="company_id" ref="ntropy_demo_data_generator.second_company"/>
+            <field name="company_id" ref="ntropy_demo_data.second_company"/>
             <field name="sequence">32</field>
             <field name="name">Impuestos</field>
             <field name="type">general</field>
             <field name="code">IMP</field>
         </record>
         <record id="second_company" model="res.company">
-            <field name="account_tax_periodicity_journal_id" ref="ntropy_demo_data_generator.account_journal_mx_tax_2"/>
+            <field name="account_tax_periodicity_journal_id" ref="ntropy_demo_data.account_journal_mx_tax_2"/>
             <!--            Habilitar entorno de prueba de timbrado-->
             <field name="l10n_mx_edi_pac">solfact</field>
             <field name="l10n_mx_edi_pac_test_env">true</field>
@@ -126,13 +126,13 @@
             <field name="lang">es_MX</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.user_erp_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.user_erp_category'))]"/>
         </record>
         <record model="res.users" id="user_test_09">
             <field name="login">cajero@example.com</field>
             <field name="email">cajero@example.com</field>
             <field name="password">admin123</field>
-            <field name="partner_id" ref="ntropy_demo_data_generator.ntropy_user_09"/>
+            <field name="partner_id" ref="ntropy_demo_data.ntropy_user_09"/>
             <field name="groups_id" eval="[(6,0,[ref('base.group_user'), ref('point_of_sale.group_pos_user')])]"/>
         </record>
     </data>

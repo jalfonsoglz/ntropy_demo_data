@@ -4,7 +4,7 @@
     <data>
         <!--        PERSONAS FISICAS-->
         <record id="ntropy_partner_1" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/membership.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/membership.png"/>
             <field name="name">MARIA OLIVIA MARTINEZ SAGAZ</field>
             <field name="vat">MASO451221PM4</field>
             <field name="phone">5544332211</field>
@@ -14,17 +14,17 @@
             <field name="zip">80290</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">616</field>
             <field name="l10n_mx_edi_usage">S01</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_01"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_01"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_2" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/membership.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/membership.png"/>
             <field name="name">FELIX MANUEL ANDRADE BALLADO</field>
             <field name="vat">AABF800614HI0</field>
             <field name="phone">5544332211</field>
@@ -38,19 +38,19 @@
             <field name="state_id">491</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_locality_id">21</field>
             <field name="l10n_mx_edi_locality">Arteaga</field>
             <field name="l10n_mx_edi_operator_licence">a234567890</field>
             <field name="l10n_mx_edi_fiscal_regime">612</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_02"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_02"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_3" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/membership.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/membership.png"/>
             <field name="name">CESAR OSBALDO CRUZ SOLORZANO</field>
             <field name="vat">CUSC850516316</field>
             <field name="phone">5544332211</field>
@@ -60,16 +60,16 @@
             <field name="zip">45638</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">605</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_03"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_03"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_4" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/membership.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/membership.png"/>
             <field name="name">XOCHILT CASAS CHAVEZ</field>
             <field name="vat">CACX7605101P8</field>
             <field name="phone">5544332211</field>
@@ -79,17 +79,17 @@
             <field name="zip">36257</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">621</field>
             <field name="l10n_mx_edi_usage">S01</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_04"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_04"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_5" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/membership.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/membership.png"/>
             <field name="name">KARLA FUENTE NOLASCO</field>
             <field name="vat">FUNK671228PH6</field>
             <field name="phone">5544332211</field>
@@ -99,18 +99,18 @@
             <field name="zip">01160</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">625</field>
             <field name="l10n_mx_edi_usage">S01</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_05"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_05"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
 
         <record id="ntropy_partner_6" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/membership.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/membership.png"/>
             <field name="name">LUIS IAN ÑUZCO</field>
             <field name="vat">IAÑL750210963</field>
             <field name="phone">5544332211</field>
@@ -120,17 +120,17 @@
             <field name="zip">85256</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">608</field>
             <field name="l10n_mx_edi_usage">S01</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_06"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_06"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_7" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/membership.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/membership.png"/>
             <field name="name">ADRIANA JUAREZ FERNANDEZ</field>
             <field name="vat">JUFA7608212V6</field>
             <field name="phone">5544332211</field>
@@ -140,17 +140,17 @@
             <field name="zip">01160</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">614</field>
             <field name="l10n_mx_edi_usage">S01</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_07"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_07"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_8" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/membership.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/membership.png"/>
             <field name="name">OSCAR KALA HAAK</field>
             <field name="vat">KAHO641101B39</field>
             <field name="phone">5544332211</field>
@@ -160,17 +160,17 @@
             <field name="zip">76074</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">612</field>
             <field name="l10n_mx_edi_usage">S01</field>
             <!--            <field name="property_account_receivable_id"-->
-            <!--                   ref="ntropy_demo_data_generator.#"/>-->
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+            <!--                   ref="ntropy_demo_data.#"/>-->
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_9" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/membership.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/membership.png"/>
             <field name="name">RODRIGO KITIA CASTRO</field>
             <field name="vat">KICR630120NX3</field>
             <field name="phone">5544332211</field>
@@ -180,17 +180,17 @@
             <field name="zip">36246</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.supplier_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.supplier_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">616</field>
             <field name="l10n_mx_edi_usage">S01</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_14"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_14"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_10" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/membership.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/membership.png"/>
             <field name="name">CECILIA MIRANDA SANCHEZ</field>
             <field name="vat">MISC491214B86</field>
             <field name="phone">5544332211</field>
@@ -200,17 +200,17 @@
             <field name="zip">01010</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">612</field>
             <field name="l10n_mx_edi_usage">S01</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_08"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_08"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_11" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/membership.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/membership.png"/>
             <field name="name">ÑEVES RAMIREZ QUEZADA</field>
             <field name="vat">RAQÑ7701212M3</field>
             <field name="phone">5544332211</field>
@@ -220,17 +220,17 @@
             <field name="zip">78905</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">605</field>
             <field name="l10n_mx_edi_usage">S01</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_09"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_09"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_12" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/membership.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/membership.png"/>
             <field name="name">MARIA WATEMBER TORRES</field>
             <field name="vat">WATM640917J45</field>
             <field name="phone">5544332211</field>
@@ -240,17 +240,17 @@
             <field name="zip">43543</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">616</field>
             <field name="l10n_mx_edi_usage">S01</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_10"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_10"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_13" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/membership.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/membership.png"/>
             <field name="name">XAIME WEIR ROJO</field>
             <field name="vat">WERX631016S30</field>
             <field name="phone">5544332211</field>
@@ -260,17 +260,17 @@
             <field name="zip">01279</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">608</field>
             <field name="l10n_mx_edi_usage">S01</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_11"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_11"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_14" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/membership.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/membership.png"/>
             <field name="name">ALBA XKARAJAM MENDEZ</field>
             <field name="vat">XAMA620210DQ5</field>
             <field name="phone">5544332211</field>
@@ -280,17 +280,17 @@
             <field name="zip">01219</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">612</field>
             <field name="l10n_mx_edi_usage">S01</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_12"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_12"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_15" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/membership.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/membership.png"/>
             <field name="name">BERENICE XIMO QUEZADA</field>
             <field name="vat">XIQB891116QE4</field>
             <field name="phone">5544332211</field>
@@ -300,18 +300,18 @@
             <field name="zip">40968</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.supplier_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.supplier_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">606</field>
             <field name="l10n_mx_edi_usage">S01</field>
             <field name="l10n_mx_type_of_operation">06</field>
             <!--            <field name="property_account_receivable_id"-->
-            <!--                   ref="ntropy_demo_data_generator.#"/>-->
-            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.account_account_mx_supplier_01"/>
+            <!--                   ref="ntropy_demo_data.#"/>-->
+            <field name="property_account_payable_id" ref="ntropy_demo_data.account_account_mx_supplier_01"/>
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_16" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/membership.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/membership.png"/>
             <field name="name">INGRID XODAR JIMENEZ</field>
             <field name="vat">XOJI740919U48</field>
             <field name="phone">5544332211</field>
@@ -321,18 +321,18 @@
             <field name="zip">76028</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">612</field>
             <field name="l10n_mx_edi_usage">S01</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_13"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_13"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <!--        PERSONAS MORALES-->
         <record id="ntropy_partner_17" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/business.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/business.png"/>
             <field name="name">INMOBILIARIA CVA</field>
             <field name="vat">ICV060329BY0</field>
             <field name="phone">5544332211</field>
@@ -342,16 +342,16 @@
             <field name="zip">33826</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">true</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.supplier_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.supplier_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">601</field>
             <!--            <field name="property_account_receivable_id"-->
-            <!--                   ref="ntropy_demo_data_generator.#"/>-->
-            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.account_account_mx_supplier_02"/>
+            <!--                   ref="ntropy_demo_data.#"/>-->
+            <field name="property_account_payable_id" ref="ntropy_demo_data.account_account_mx_supplier_02"/>
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_18" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/business.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/business.png"/>
             <field name="name">ARENA BLANCA</field>
             <field name="vat">ABC970528UHA</field>
             <field name="phone">5544332211</field>
@@ -361,15 +361,15 @@
             <field name="zip">80290</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">true</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">626</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_15"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_15"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_19" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/business.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/business.png"/>
             <field name="name">COMERCIALIZADORA TEODORIKAS</field>
             <field name="vat">CTE950627K46</field>
             <field name="phone">5544332211</field>
@@ -379,15 +379,15 @@
             <field name="zip">57740</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">true</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">601</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_16"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_16"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_20" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/business.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/business.png"/>
             <field name="name">ALBERCAS MONTAÑO</field>
             <field name="vat">AMO8905171T1</field>
             <field name="phone">5544332211</field>
@@ -397,16 +397,16 @@
             <field name="zip">22000</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">true</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">626</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_17"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_17"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_21" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/business.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/business.png"/>
             <field name="name">GRUPO DE CONSTRUCCION ARQUITECTONICA NACIONAL</field>
             <field name="vat">GCA000415UX7</field>
             <field name="phone">5544332211</field>
@@ -416,15 +416,15 @@
             <field name="zip">11830</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">true</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">601</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_18"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_18"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_22" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/business.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/business.png"/>
             <field name="name">HIDRO HORTICOLA DEL NOROESTE</field>
             <field name="vat">HHN0507087N4</field>
             <field name="phone">5544332211</field>
@@ -434,15 +434,15 @@
             <field name="zip">82198</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">true</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">601</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_19"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_19"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_23" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/business.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/business.png"/>
             <field name="name">INDISTRIA ILUMINADORA DE ALMACENES</field>
             <field name="vat">IIA040805DZ4</field>
             <field name="phone">5544332211</field>
@@ -452,15 +452,15 @@
             <field name="zip">62661</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">true</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.supplier_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.supplier_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">601</field>
-<!--            <field name="property_account_receivable_id" ref="ntropy_demo_data_generator.#"/>-->
-            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.account_account_mx_supplier_03"/>
+<!--            <field name="property_account_receivable_id" ref="ntropy_demo_data.#"/>-->
+            <field name="property_account_payable_id" ref="ntropy_demo_data.account_account_mx_supplier_03"/>
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_24" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/business.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/business.png"/>
             <field name="name">HERRERIA &amp; ELECTRICOS</field>
             <field name="vat">H&amp;E951128469</field>
             <field name="phone">5544332211</field>
@@ -470,14 +470,14 @@
             <field name="zip">06002</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">true</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.supplier_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.supplier_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">616</field>
-<!--            <field name="property_account_receivable_id" ref="ntropy_demo_data_generator.#"/>-->
-            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.account_account_mx_supplier_04"/>
+<!--            <field name="property_account_receivable_id" ref="ntropy_demo_data.#"/>-->
+            <field name="property_account_payable_id" ref="ntropy_demo_data.account_account_mx_supplier_04"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_25" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/business.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/business.png"/>
             <field name="name">INNOVACION VALOR Y DESARROLLO</field>
             <field name="vat">IVD920810GU2</field>
             <field name="phone">5544332211</field>
@@ -487,16 +487,16 @@
             <field name="zip">63901</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">true</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.supplier_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.supplier_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">601</field>
             <!--            <field name="property_account_receivable_id"-->
-            <!--                   ref="ntropy_demo_data_generator"/>-->
-            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.account_account_mx_supplier_05"/>
+            <!--                   ref="ntropy_demo_data"/>-->
+            <field name="property_account_payable_id" ref="ntropy_demo_data.account_account_mx_supplier_05"/>
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_26" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/business.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/business.png"/>
             <field name="name">INTERNACIONAL XIMBO Y SABORES</field>
             <field name="vat">IXS7607092R5</field>
             <field name="phone">5544332211</field>
@@ -506,15 +506,15 @@
             <field name="zip">23004</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">true</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.supplier_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.supplier_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">603</field>
-            <!--            <field name="property_account_receivable_id" ref="ntropy_demo_data_generator.#"/>-->
-            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.account_account_mx_supplier_06"/>
+            <!--            <field name="property_account_receivable_id" ref="ntropy_demo_data.#"/>-->
+            <field name="property_account_payable_id" ref="ntropy_demo_data.account_account_mx_supplier_06"/>
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_27" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/business.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/business.png"/>
             <field name="name">JIMENEZ ESTRADA SALAS</field>
             <field name="vat">JES900109Q90</field>
             <field name="phone">5544332211</field>
@@ -524,15 +524,15 @@
             <field name="zip">37161</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">true</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.supplier_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.supplier_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">601</field>
-            <!--            <field name="property_account_receivable_id" ref="ntropy_demo_data_generator.$"/>-->
-            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.account_account_mx_supplier_07"/>
+            <!--            <field name="property_account_receivable_id" ref="ntropy_demo_data.$"/>-->
+            <field name="property_account_payable_id" ref="ntropy_demo_data.account_account_mx_supplier_07"/>
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_28" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/business.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/business.png"/>
             <field name="name">KERNEL INDUSTIA JUGUETERA</field>
             <field name="vat">KIJ0906199R1</field>
             <field name="phone">5544332211</field>
@@ -542,16 +542,16 @@
             <field name="zip">62661</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">true</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">603</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_21"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_21"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_29" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/business.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/business.png"/>
             <field name="name">LUCES &amp; OBRAS</field>
             <field name="vat">L&amp;O950913MSA</field>
             <field name="phone">5544332211</field>
@@ -561,15 +561,15 @@
             <field name="zip">60922</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">true</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.supplier_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.supplier_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">603</field>
-            <!--            <field name="property_account_receivable_id" ref="ntropy_demo_data_generator.#"/>-->
-            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.account_account_mx_supplier_08"/>
+            <!--            <field name="property_account_receivable_id" ref="ntropy_demo_data.#"/>-->
+            <field name="property_account_payable_id" ref="ntropy_demo_data.account_account_mx_supplier_08"/>
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_30" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/business.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/business.png"/>
             <field name="name">ORGANICOS ÑAVEZ OSORIO</field>
             <field name="vat">OÑO120726RX3</field>
             <field name="phone">5544332211</field>
@@ -579,15 +579,15 @@
             <field name="zip">40501</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">true</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.supplier_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.supplier_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">601</field>
-            <!--            <field name="property_account_receivable_id" ref="ntropy_demo_data_generator.#"/>-->
-            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.account_account_mx_supplier_09"/>
+            <!--            <field name="property_account_receivable_id" ref="ntropy_demo_data.#"/>-->
+            <field name="property_account_payable_id" ref="ntropy_demo_data.account_account_mx_supplier_09"/>
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_31" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/business.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/business.png"/>
             <field name="name">S &amp; SOFTWARE</field>
             <field name="vat">S&amp;S051221SE2</field>
             <field name="phone">5544332211</field>
@@ -597,15 +597,15 @@
             <field name="zip">76022</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">true</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.supplier_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.supplier_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">624</field>
-            <!--            <field name="property_account_receivable_id" ref="ntropy_demo_data_generator.#"/>-->
-            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.account_account_mx_supplier_10"/>
+            <!--            <field name="property_account_receivable_id" ref="ntropy_demo_data.#"/>-->
+            <field name="property_account_payable_id" ref="ntropy_demo_data.account_account_mx_supplier_10"/>
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_32" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/business.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/business.png"/>
             <field name="name">ZAPATERIA URTADO ÑERI</field>
             <field name="vat">ZUÑ920208KL4</field>
             <field name="phone">5544332211</field>
@@ -615,15 +615,15 @@
             <field name="zip">34541</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">true</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.supplier_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.supplier_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">601</field>
-            <!--            <field name="property_account_receivable_id" ref="ntropy_demo_data_generator.#"/>-->
-            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.account_account_mx_supplier_11"/>
+            <!--            <field name="property_account_receivable_id" ref="ntropy_demo_data.#"/>-->
+            <field name="property_account_payable_id" ref="ntropy_demo_data.account_account_mx_supplier_11"/>
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_33" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/business.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/business.png"/>
             <field name="name">XENON INDUSTRIAL ARTICLES</field>
             <field name="vat">XIA190128J61</field>
             <field name="phone">5544332211</field>
@@ -633,16 +633,16 @@
             <field name="zip">76343</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">true</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">624</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_20"/>
-            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.#"/>-->
+                   ref="ntropy_demo_data.account_account_mx_partner_20"/>
+            <!--            <field name="property_account_payable_id" ref="ntropy_demo_data.#"/>-->
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_34" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/business.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/business.png"/>
             <field name="name">UNIVERSIDAD ROBOTICA ESPAÑOLA</field>
             <field name="vat">URE180429TM6</field>
             <field name="phone">5544332211</field>
@@ -652,15 +652,15 @@
             <field name="zip">86991</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">true</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.supplier_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.supplier_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">603</field>
-            <!--            <field name="property_account_receivable_id" ref="ntropy_demo_data_generator.#"/>-->
-            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.account_account_mx_supplier_12"/>
+            <!--            <field name="property_account_receivable_id" ref="ntropy_demo_data.#"/>-->
+            <field name="property_account_payable_id" ref="ntropy_demo_data.account_account_mx_supplier_12"/>
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_98" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/umbrella.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/umbrella.png"/>
             <field name="name">UMBRELLA CORPORATION</field>
             <field name="vat">123456789</field>
             <field name="phone">5599887766</field>
@@ -676,7 +676,7 @@
             <field name="currency_id" ref="base.USD"/>
             <field name="is_company">true</field>
             <field name="category_id"
-                   eval="[(4,ref('ntropy_demo_data_generator.customer_category'), ref('ntropy_demo_data_generator.supplier_category'))]"/>
+                   eval="[(4,ref('ntropy_demo_data.customer_category'), ref('ntropy_demo_data.supplier_category'))]"/>
             <field name="l10n_mx_edi_payment_method_id">3</field>
             <field name="l10n_mx_edi_usage">S01</field>
             <field name="l10n_mx_edi_fiscal_regime">616</field>
@@ -684,27 +684,27 @@
             <field name="l10n_mx_type_of_operation">03</field>
             <field name="property_account_position_id">01</field>
             <field name="property_account_receivable_id"
-                   ref="ntropy_demo_data_generator.account_account_mx_partner_22"/>
-            <field name="property_account_payable_id" ref="ntropy_demo_data_generator.account_account_mx_supplier_00"/>
+                   ref="ntropy_demo_data.account_account_mx_partner_22"/>
+            <field name="property_account_payable_id" ref="ntropy_demo_data.account_account_mx_supplier_00"/>
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
             <field name="property_supplier_payment_term_id" ref="account.account_payment_term_30days"/>
         </record>
         <record id="ntropy_partner_99" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/website_customer.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/website_customer.png"/>
             <field name="name">CLIENTE FINAL</field>
             <field name="vat">XAXX010101000</field>
             <field name="email">admin@example.com</field>
             <field name="lang">es_MX</field>
             <field name="zip">06600</field>
             <field name="country_id" ref="base.mx"/>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.customer_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.customer_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">616</field>
             <field name="property_payment_term_id" ref="account.account_payment_term_immediate"/>
         </record>
 
         <!--        DIRECCIONES DE ALMACEN-->
         <record id="warehouse_main" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/warehouse.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/warehouse.png"/>
             <field name="name">Almacén Main</field>
             <field name="street">Campobasso Norte 32006</field>
             <field name="street2">Colonia Juárez</field>
@@ -725,7 +725,7 @@
         </record>
 
         <record id="warehouse_alter" model="res.partner">
-            <field name="image_1920" type="base64" file="ntropy_demo_data_generator/static/icons/warehouse.png"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/warehouse.png"/>
             <field name="name">Almacén Alter</field>
             <field name="street">Av. Hidalgo</field>
             <field name="street2">Santa Anita</field>
@@ -754,7 +754,7 @@
             <field name="lang">es_MX</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.user_erp_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.user_erp_category'))]"/>
         </record>
         <record id="ntropy_user_02" model="res.partner">
             <field name="name">Pedro Martinez</field>
@@ -764,7 +764,7 @@
             <field name="lang">es_MX</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.user_erp_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.user_erp_category'))]"/>
         </record>
         <record id="ntropy_user_03" model="res.partner">
             <field name="name">Alejandro Rodriguez</field>
@@ -774,7 +774,7 @@
             <field name="lang">es_MX</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.user_erp_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.user_erp_category'))]"/>
         </record>
         <record id="ntropy_user_04" model="res.partner">
             <field name="name">José Hernández</field>
@@ -784,7 +784,7 @@
             <field name="lang">es_MX</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.user_erp_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.user_erp_category'))]"/>
         </record>
         <record id="ntropy_user_05" model="res.partner">
             <field name="name">Luis Morales</field>
@@ -794,7 +794,7 @@
             <field name="lang">es_MX</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.user_erp_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.user_erp_category'))]"/>
         </record>
         <record id="ntropy_user_06" model="res.partner">
             <field name="name">María García</field>
@@ -804,7 +804,7 @@
             <field name="lang">es_MX</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.user_erp_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.user_erp_category'))]"/>
         </record>
         <record id="ntropy_user_07" model="res.partner">
             <field name="name">Ana Martínez</field>
@@ -814,7 +814,7 @@
             <field name="lang">es_MX</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.user_erp_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.user_erp_category'))]"/>
         </record>
         <record id="ntropy_user_08" model="res.partner">
             <field name="name">Rosa López</field>
@@ -824,7 +824,7 @@
             <field name="lang">es_MX</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.user_erp_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.user_erp_category'))]"/>
         </record>
         <record id="ntropy_user_10" model="res.partner">
             <field name="name">Isabel González</field>
@@ -834,7 +834,7 @@
             <field name="lang">es_MX</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.user_erp_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.user_erp_category'))]"/>
         </record>
         <record id="ntropy_user_11" model="res.partner">
             <field name="name">Carlos Núñez</field>
@@ -844,7 +844,7 @@
             <field name="lang">es_MX</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.user_erp_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.user_erp_category'))]"/>
         </record>
         <record id="ntropy_user_12" model="res.partner">
             <field name="name">Adriana Reyes</field>
@@ -854,7 +854,7 @@
             <field name="lang">es_MX</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.user_erp_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.user_erp_category'))]"/>
         </record>
         <record id="ntropy_user_13" model="res.partner">
             <field name="name">Roberto Torres</field>
@@ -864,7 +864,7 @@
             <field name="lang">es_MX</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.user_erp_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.user_erp_category'))]"/>
         </record>
         <record id="ntropy_user_14" model="res.partner">
             <field name="name">Patricia Armenta</field>
@@ -874,7 +874,7 @@
             <field name="lang">es_MX</field>
             <field name="country_id" ref="base.mx"/>
             <field name="is_company">false</field>
-            <field name="category_id" eval="[(4,ref('ntropy_demo_data_generator.user_erp_category'))]"/>
+            <field name="category_id" eval="[(4,ref('ntropy_demo_data.user_erp_category'))]"/>
         </record>
     </data>
 </odoo>

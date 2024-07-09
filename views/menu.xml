@@ -1,5 +1,5 @@
 <odoo>
-    <record model="ir.actions.act_window" id="action_ntropy_demo_data_generator">
+    <record model="ir.actions.act_window" id="action_ntropy_demo_data">
         <field name="name">Data Generator</field>
         <field name="res_model">ntropy.demo.data.generator</field>
         <field name="view_mode">tree,form</field>
@@ -11,9 +11,9 @@
     </record>
 
     <menuitem id="ntropy_demo_menu_root" name="Ntropy Demo"
-              web_icon="ntropy_demo_data_generator,static/description/icon.png" sequence="10" groups="base.group_system"/>
+              web_icon="ntropy_demo_data,static/description/icon.png" sequence="10" groups="base.group_system"/>
 
-    <menuitem id="ntropy_demo_data_generator_menu" name="Data Generator"
-              parent="ntropy_demo_menu_root" action="action_ntropy_demo_data_generator" groups="base.group_system"/>
+    <menuitem id="ntropy_demo_data_menu" name="Data Generator"
+              parent="ntropy_demo_menu_root" action="action_ntropy_demo_data" groups="base.group_system"/>
 
 </odoo>

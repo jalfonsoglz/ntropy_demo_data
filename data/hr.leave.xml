@@ -12,7 +12,7 @@
             <field name="holiday_status_id" ref="hr_holidays.holiday_status_sl"/>
             <field name="date_from">2024-04-04</field>
             <field name="date_from">2024-04-05</field>
-            <!--            <field name="file" type="base64" file="ntropy_demo_data_generator/data/sample.pdf"/>-->
+            <!--            <field name="file" type="base64" file="ntropy_demo_data/data/sample.pdf"/>-->
         </record>
         <!--        ASIGNACION DE VACACIONES-->
         <record id="holidays_auxiliar" model="hr.leave.allocation">
