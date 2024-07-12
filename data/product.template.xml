@@ -91,6 +91,28 @@
             <field name="uom_id">1</field>
             <field name="uom_po_id">1</field>
         </record>
+        <record id="point_of_sale.product_product_tip_product_template" model="product.template">
+            <field name="company_id" ref="ntropy_demo_data.demo_company_mx_restaurant"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/restaurant/tips.png"/>
+            <field name="name">Propinas</field>
+            <field name="default_code">TIPS</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="point_of_sale.product_category_pos"/>
+            <field name="uom_id">1</field>
+            <field name="uom_po_id">1</field>
+        </record>
+        <record id="sale_timesheet.time_product_product_template" model="product.template">
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/hours_timesheet.png"/>
+            <field name="name">Servicio en la hoja de horas</field>
+            <field name="default_code">TIME</field>
+            <field name="list_price">500</field>
+            <field name="standard_price">250</field>
+            <field name="detailed_type">service</field>
+            <field name="categ_id" ref="product.product_category_1"/>
+            <field name="unspsc_code_id">53571</field>
+            <field name="uom_id">4</field>
+            <field name="uom_po_id">4</field>
+        </record>
         <record id="ntropy_product_08" model="product.template">
             <field name="company_id" ref="base.main_company"/>
             <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/warehouse.png"/>

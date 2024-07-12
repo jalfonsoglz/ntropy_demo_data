@@ -1,7 +1,7 @@
 <odoo>
     <record model="ir.actions.act_window" id="action_ntropy_demo_data">
         <field name="name">Data Generator</field>
-        <field name="res_model">ntropy.demo.data.generator</field>
+        <field name="res_model">ntropy.demo.data</field>
         <field name="view_mode">tree,form</field>
         <field name="help" type="html">
             <p class="oe_view_nocontent_create">

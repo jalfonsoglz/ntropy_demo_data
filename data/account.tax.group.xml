@@ -53,7 +53,8 @@
             <field name="tax_payable_account_id" ref="ntropy_demo_data.Cuenta213_02_01"/>
             <field name="tax_receivable_account_id" ref="ntropy_demo_data.Cuenta113_08_01"/>
         </record>
-<!--        <record id="account.2_tax_group_iva_0" model="account.tax.group">-->
+<!--        <record id="account.1_tax_group_iva_0" model="account.tax.group">-->
+<!--            <field name="company_id" ref="ntropy_demo_data.demo_company_mx_retail"/>-->
 <!--            <field name="tax_payable_account_id" ref="ntropy_demo_data.Cuenta213_01_01"/>-->
 <!--            <field name="tax_receivable_account_id" ref="ntropy_demo_data.Cuenta113_01_01"/>-->
 <!--        </record>-->

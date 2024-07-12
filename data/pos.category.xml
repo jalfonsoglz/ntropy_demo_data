@@ -1,49 +1,5 @@
 <odoo>
     <data>
-        <record id="ntropy_category_pos_store_01" model="pos.category">
-            <field name="company_id" ref="ntropy_demo_data.second_company"/>
-            <field name="name">Miscelánea</field>
-            <field name="sequence">10</field>
-        </record>
-<!--        <record id="ntropy_category_pos_01" model="pos.category">-->
-<!--            <field name="name">Procesador</field>-->
-<!--            <field name="sequence">10</field>-->
-<!--        </record>-->
-<!--        <record id="ntropy_category_pos_02" model="pos.category">-->
-<!--            <field name="name">Memorias RAM</field>-->
-<!--            <field name="sequence">20</field>-->
-<!--        </record>-->
-<!--        <record id="ntropy_category_pos_03" model="pos.category">-->
-<!--            <field name="name">Almacenamiento</field>-->
-<!--            <field name="sequence">30</field>-->
-<!--        </record>-->
-<!--        <record id="ntropy_category_pos_04" model="pos.category">-->
-<!--            <field name="name">Gabinete</field>-->
-<!--            <field name="sequence">40</field>-->
-<!--        </record>-->
-<!--        <record id="ntropy_category_pos_05" model="pos.category">-->
-<!--            <field name="name">Fuente de Poder</field>-->
-<!--            <field name="sequence">50</field>-->
-<!--        </record>-->
-<!--        <record id="ntropy_category_pos_06" model="pos.category">-->
-<!--            <field name="name">Tarjeta de Video</field>-->
-<!--            <field name="sequence">60</field>-->
-<!--        </record>-->
-<!--        <record id="ntropy_category_pos_07" model="pos.category">-->
-<!--            <field name="name">Monitor</field>-->
-<!--            <field name="sequence">70</field>-->
-<!--        </record>-->
-<!--        <record id="ntropy_category_pos_08" model="pos.category">-->
-<!--            <field name="name">Teclado</field>-->
-<!--            <field name="sequence">80</field>-->
-<!--        </record>-->
-<!--        <record id="ntropy_category_pos_09" model="pos.category">-->
-<!--            <field name="name">Mouse</field>-->
-<!--            <field name="sequence">90</field>-->
-<!--        </record>-->
-<!--        <record id="ntropy_category_pos_10" model="pos.category">-->
-<!--            <field name="name">Tarjeta Madre</field>-->
-<!--            <field name="sequence">100</field>-->
-<!--        </record>-->
+
     </data>
 </odoo>

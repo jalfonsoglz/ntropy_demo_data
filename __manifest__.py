@@ -1,11 +1,11 @@
 {
-    'name': "Ntropy México Demo Data",
-    'summary': """This generates a large number of products, partners, orders, invoices for demonstration.""",
-    'description': """This generates a large number of products, partners, orders, invoices for demonstration.""",
+    'name': "Ntropy Demo Data",
+    'summary': """This module generate demo data based Odoo Mexican localization for testing proposes.""",
+    'description': """This module generate demo data based Odoo Mexican localization for testing proposes.""",
     'author': "Alfonso Gonzalez",
     'website': "https://ntropy.tech/odoo",
     'category': 'Customizations',
-    'version': '0.3',
+    'version': '17.4',
     'license': "LGPL-3",
     'sequence': "-100",
     'depends': ['base',
@@ -58,13 +58,13 @@
     'data': [
         # Security
         'security/ir.model.access.csv',
-        # Views
         # Wizard
         # Reports
         # Views
         'views/form.xml',
         'views/menu.xml',
         # Data
+        'data/demo_companys.xml',
         'data/res.lang.xml',
         'data/account.account.csv',
         'data/account.account.xml',
@@ -72,20 +72,19 @@
         'data/account.journal.xml',
         'data/account.tax.group.xml',
         'data/res.partner.category.xml',
-        'data/base_cfdi.xml',
-        'data/pos_company.xml',
         'data/res.partner.xml',
         'data/res.users.xml',
         'data/pos.product.template.xml',
+        'data/rest.product.template.xml',
         'data/account.fiscal.year.xml',
         'data/product.pricelist.xml',
         'data/stock.route.xml',
-        'data/stock.warehouse.xml',
+        # 'data/stock.warehouse.xml',
         # Demo Data Workflows
         'data/product.category.xml',
         'data/product.template.xml',
         'data/sale.order.template.xml',
-        # 'data/pos.category.xml',
+        'data/pos.category.xml',
         'data/res.currency.xml',
         'data/account.payment.term.xml',
         'data/l10n.mx.edi.vehicle.xml',

@@ -6,8 +6,8 @@ from faker.providers import internet
 from odoo import models, fields, api
 
 
-class NtropyDemoDataGenerator(models.Model):
-    _name = 'ntropy.demo.data.generator'
+class NtropyDemoData(models.Model):
+    _name = 'ntropy.demo.data'
     _inherit = ['mail.thread', 'mail.activity.mixin', 'utm.mixin']
     _description = 'Generador de datos'
 

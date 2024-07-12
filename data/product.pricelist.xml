@@ -4,18 +4,55 @@
         <record id="pricelist_mxn" model="product.pricelist">
             <field name="name">Pesos</field>
             <field name="currency_id" ref="base.MXN"/>
+            <field name="company_id" ref="base.main_company"/>
         </record>
         <record id="pricelist_usd" model="product.pricelist">
             <field name="name">Dollars</field>
             <field name="currency_id" ref="base.USD"/>
+            <field name="company_id" ref="base.main_company"/>
         </record>
         <record id="pricelist_eur" model="product.pricelist">
             <field name="name">Euros</field>
             <field name="currency_id" ref="base.EUR"/>
+            <field name="company_id" ref="base.main_company"/>
         </record>
         <record id="pricelist_jpy" model="product.pricelist">
             <field name="name">Yen</field>
             <field name="currency_id" ref="base.JPY"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!--        Lista de Precios Trading -->
+        <record id="pricelist_mxn_trading" model="product.pricelist">
+            <field name="name">Pesos</field>
+            <field name="currency_id" ref="base.MXN"/>
+            <field name="company_id" ref="ntropy_demo_data.demo_company_mx_trading"/>
+        </record>
+        <record id="pricelist_usd_trading" model="product.pricelist">
+            <field name="name">Dollars</field>
+            <field name="currency_id" ref="base.USD"/>
+            <field name="company_id" ref="ntropy_demo_data.demo_company_mx_trading"/>
+        </record>
+        <!--        Lista de Precios Retail -->
+        <record id="pricelist_mxn_retail" model="product.pricelist">
+            <field name="name">Pesos</field>
+            <field name="currency_id" ref="base.MXN"/>
+            <field name="company_id" ref="ntropy_demo_data.demo_company_mx_retail"/>
+        </record>
+        <record id="pricelist_usd_retail" model="product.pricelist">
+            <field name="name">Dollars</field>
+            <field name="currency_id" ref="base.USD"/>
+            <field name="company_id" ref="ntropy_demo_data.demo_company_mx_retail"/>
+        </record>
+        <!--        Lista de Precios Restaurant -->
+        <record id="pricelist_mxn_restaurant" model="product.pricelist">
+            <field name="name">Pesos</field>
+            <field name="currency_id" ref="base.MXN"/>
+            <field name="company_id" ref="ntropy_demo_data.demo_company_mx_restaurant"/>
+        </record>
+        <record id="pricelist_usd_restaurant" model="product.pricelist">
+            <field name="name">Dollars</field>
+            <field name="currency_id" ref="base.USD"/>
+            <field name="company_id" ref="ntropy_demo_data.demo_company_mx_restaurant"/>
         </record>
     </data>
 </odoo>

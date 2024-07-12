@@ -5,7 +5,7 @@
         <record id="stock.warehouse0" model="stock.warehouse">
             <field name="name">Main</field>
             <field name="code">WH</field>
-            <field name="type">delivery</field>
+<!--            <field name="type">delivery</field>-->
             <field name="company_id" ref="base.main_company"/>
             <field name="parent_id" ref="ntropy_demo_data.warehouse_main"/>
         </record>
@@ -13,7 +13,7 @@
         <record id="alter_warehouse" model="stock.warehouse">
             <field name="name">Alter</field>
             <field name="code">AH</field>
-            <field name="type">delivery</field>
+<!--            <field name="type">delivery</field>-->
             <field name="company_id" ref="base.main_company"/>
             <field name="parent_id" ref="ntropy_demo_data.warehouse_alter"/>
         </record>

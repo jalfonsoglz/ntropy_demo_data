@@ -1,0 +1,43 @@
+<odoo>
+    <data>
+        <record id="ntropy_product_rest_01" model="product.template">
+            <field name="company_id" ref="ntropy_demo_data.demo_company_mx_restaurant"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/restaurant/HAMBQ.png"/>
+            <field name="name">Hamburguesa con queso</field>
+            <field name="default_code">HAMBQ</field>
+            <field name="list_price">49</field>
+            <field name="standard_price">14</field>
+            <field name="detailed_type">product</field>
+            <field name="unspsc_code_id">230</field>
+            <field name="available_in_pos">true</field>
+            <field name="uom_id">1</field>
+            <field name="uom_po_id">1</field>
+        </record>
+        <record id="ntropy_product_rest_02" model="product.template">
+            <field name="company_id" ref="ntropy_demo_data.demo_company_mx_restaurant"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/restaurant/PAPAS-GDE.png"/>
+            <field name="name">Papas a la Francesa Grandes</field>
+            <field name="default_code">PAPAS-GDE</field>
+            <field name="list_price">65</field>
+            <field name="standard_price">15</field>
+            <field name="detailed_type">product</field>
+            <field name="unspsc_code_id">230</field>
+            <field name="available_in_pos">true</field>
+            <field name="uom_id">1</field>
+            <field name="uom_po_id">1</field>
+        </record>
+        <record id="ntropy_product_rest_03" model="product.template">
+            <field name="company_id" ref="ntropy_demo_data.demo_company_mx_restaurant"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/restaurant/COCA-GDE.png"/>
+            <field name="name">Coca-Cola Grande</field>
+            <field name="default_code">COCA-GDE</field>
+            <field name="list_price">45</field>
+            <field name="standard_price">10</field>
+            <field name="detailed_type">product</field>
+            <field name="unspsc_code_id">230</field>
+            <field name="available_in_pos">true</field>
+            <field name="uom_id">1</field>
+            <field name="uom_po_id">1</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--    Contacto de EMPRESA 1 (Servicios) -->
+    <record id="base.main_partner" model="res.partner">
+        <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/company.png"/>
+        <field name="name">ERP Solutions</field>
+        <field name="vat">EKU9003173C9</field>
+        <field name="street">Campobasso Norte 3206/9000</field>
+        <field name="street2">Fraccionamiento Montecarlo</field>
+        <field name="street_name">Campobasso Norte 32006</field>
+        <field name="street_number">10</field>
+        <field name="street_number2">15</field>
+        <field name="zip">20914</field>
+        <field name="city">Jesús Maria</field>
+        <field name="city_id">5</field>
+        <field name="state_id" ref="base.state_mx_son"/>
+        <field name="country_id" ref="base.mx"/>
+        <field name="phone">+525511223344</field>
+        <field name="mobile">5511223344</field>
+        <field name="email">admin@example.com</field>
+        <field name="website">www.mxexample.com</field>
+        <field name="lang">es_MX</field>
+        <field name="l10n_mx_edi_usage">S01</field>
+        <field name="l10n_mx_edi_payment_method_id">3</field>
+        <field name="l10n_mx_edi_fiscal_regime">601</field>
+        <field name="l10n_mx_edi_colony">Fraccionamiento Montecarlo</field>
+        <field name="l10n_mx_edi_colony_code">0858</field>
+    </record>
+    <!--    Contacto de EMPRESA 2 (Comercializadora) -->
+    <record id="partner_demo_company2_mx" model="res.partner">
+        <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/company.png"/>
+        <field name="name">Odoo Trading</field>
+        <field name="vat">EKU9003173C9</field>
+        <field name="street">Campobasso Norte 3206/9000</field>
+        <field name="street2">Fraccionamiento Montecarlo</field>
+        <field name="street_name">Campobasso Norte 32006</field>
+        <field name="street_number">10</field>
+        <field name="street_number2">15</field>
+        <field name="zip">20914</field>
+        <field name="city">Jesús Maria</field>
+        <field name="city_id">5</field>
+        <field name="state_id" ref="base.state_mx_son"/>
+        <field name="country_id" ref="base.mx"/>
+        <field name="phone">+525511223344</field>
+        <field name="mobile">5511223344</field>
+        <field name="email">admin@example.com</field>
+        <field name="website">www.mxexample.com</field>
+        <field name="lang">es_MX</field>
+        <field name="l10n_mx_edi_usage">S01</field>
+        <field name="l10n_mx_edi_payment_method_id">3</field>
+        <field name="l10n_mx_edi_fiscal_regime">601</field>
+        <field name="l10n_mx_edi_colony">Fraccionamiento Montecarlo</field>
+        <field name="l10n_mx_edi_colony_code">0858</field>
+    </record>
+    <!--    Contacto de EMPRESA 3 (Minorista) -->
+    <record id="partner_demo_company3_mx" model="res.partner">
+        <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/company.png"/>
+        <field name="name">Odoo Retail</field>
+        <field name="vat">EKU9003173C9</field>
+        <field name="street">Campobasso Norte 3206/9000</field>
+        <field name="street2">Fraccionamiento Montecarlo</field>
+        <field name="street_name">Campobasso Norte 32006</field>
+        <field name="street_number">10</field>
+        <field name="street_number2">15</field>
+        <field name="zip">20914</field>
+        <field name="city">Jesús Maria</field>
+        <field name="city_id">5</field>
+        <field name="state_id" ref="base.state_mx_son"/>
+        <field name="country_id" ref="base.mx"/>
+        <field name="phone">+525511223344</field>
+        <field name="mobile">5511223344</field>
+        <field name="email">admin@example.com</field>
+        <field name="website">www.mxexample.com</field>
+        <field name="lang">es_MX</field>
+        <field name="l10n_mx_edi_usage">S01</field>
+        <field name="l10n_mx_edi_payment_method_id">3</field>
+        <field name="l10n_mx_edi_fiscal_regime">601</field>
+        <field name="l10n_mx_edi_colony">Fraccionamiento Montecarlo</field>
+        <field name="l10n_mx_edi_colony_code">0858</field>
+    </record>
+    <!--    Contacto de EMPRESA 4 (Restaurante) -->
+    <record id="partner_demo_company4_mx" model="res.partner">
+        <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/company.png"/>
+        <field name="name">Odoo Restaurant</field>
+        <field name="vat">EKU9003173C9</field>
+        <field name="street">Campobasso Norte 3206/9000</field>
+        <field name="street2">Fraccionamiento Montecarlo</field>
+        <field name="street_name">Campobasso Norte 32006</field>
+        <field name="street_number">10</field>
+        <field name="street_number2">15</field>
+        <field name="zip">20914</field>
+        <field name="city">Jesús Maria</field>
+        <field name="city_id">5</field>
+        <field name="state_id" ref="base.state_mx_son"/>
+        <field name="country_id" ref="base.mx"/>
+        <field name="phone">+525511223344</field>
+        <field name="mobile">5511223344</field>
+        <field name="email">admin@example.com</field>
+        <field name="website">www.mxexample.com</field>
+        <field name="lang">es_MX</field>
+        <field name="l10n_mx_edi_usage">S01</field>
+        <field name="l10n_mx_edi_payment_method_id">3</field>
+        <field name="l10n_mx_edi_fiscal_regime">601</field>
+        <field name="l10n_mx_edi_colony">Fraccionamiento Montecarlo</field>
+        <field name="l10n_mx_edi_colony_code">0858</field>
+    </record>
+
+    <!--    Certificados de Sello Digital de Prueba para firmar CFDI -->
+    <record id="certificate_demo_company_mx" model="l10n_mx_edi.certificate">
+        <field name="content" type="base64" file="ntropy_demo_data/pac_credentials/certificate.cer"/>
+        <field name="key" type="base64" file="ntropy_demo_data/pac_credentials/certificate.key"/>
+        <field name="serial_number">30001000000500003416</field>
+        <field name="password">12345678a</field>
+    </record>
+
+    <record id="certificate_demo_company_mx_trading" model="l10n_mx_edi.certificate">
+        <field name="content" type="base64" file="ntropy_demo_data/pac_credentials/certificate.cer"/>
+        <field name="key" type="base64" file="ntropy_demo_data/pac_credentials/certificate.key"/>
+        <field name="serial_number">30001000000500003416</field>
+        <field name="password">12345678a</field>
+    </record>
+
+    <record id="certificate_demo_company_mx_retail" model="l10n_mx_edi.certificate">
+        <field name="content" type="base64" file="ntropy_demo_data/pac_credentials/certificate.cer"/>
+        <field name="key" type="base64" file="ntropy_demo_data/pac_credentials/certificate.key"/>
+        <field name="serial_number">30001000000500003416</field>
+        <field name="password">12345678a</field>
+    </record>
+
+    <record id="certificate_demo_company_mx_restaurant" model="l10n_mx_edi.certificate">
+        <field name="content" type="base64" file="ntropy_demo_data/pac_credentials/certificate.cer"/>
+        <field name="key" type="base64" file="ntropy_demo_data/pac_credentials/certificate.key"/>
+        <field name="serial_number">30001000000500003416</field>
+        <field name="password">12345678a</field>
+    </record>
+
+    <!--    Creación de Empresas -->
+    <!--    1. Services -->
+    <record id="base.main_company" model="res.company">
+        <field name="sequence">0</field>
+        <field name="name">ERP Solutions</field>
+        <field name="partner_id" ref="base.main_partner"/>
+        <!--    Asociación de Certificados  -->
+        <field name="l10n_mx_edi_pac">solfact</field>
+        <field name="l10n_mx_edi_pac_test_env">true</field>
+        <field name="l10n_mx_edi_fiscal_regime">601</field>
+        <field name="l10n_mx_edi_certificate_ids" eval="[(6, 0, [ref('certificate_demo_company_mx')])]"/>
+    </record>
+    <!--    Paquete Localización Fiscal  -->
+    <function model="account.chart.template" name="try_loading">
+        <value eval="[]"/>
+        <value>mx</value>
+        <value model="res.company" eval="ref('base.main_company')"/>
+    </function>
+
+    <!--    2. Trading -->
+    <record id="demo_company_mx_trading" model="res.company">
+        <field name="sequence">1</field>
+        <field name="name">Odoo Trading</field>
+        <field name="partner_id" ref="partner_demo_company2_mx"/>
+        <!--    Asociación de Certificados  -->
+        <field name="l10n_mx_edi_pac">solfact</field>
+        <field name="l10n_mx_edi_pac_test_env">true</field>
+        <field name="l10n_mx_edi_fiscal_regime">601</field>
+<!--        <field name="l10n_mx_edi_certificate_ids" eval="[(6, 0, [ref('certificate_demo_company_mx_trading')])]"/>-->
+    </record>
+    <!--    Paquete Localización Fiscal  -->
+    <function model="account.chart.template" name="try_loading">
+        <value eval="[]"/>
+        <value>mx</value>
+        <value model="res.company" eval="ref('demo_company_mx_trading')"/>
+    </function>
+
+    <!--    3. Retail -->
+    <record id="demo_company_mx_retail" model="res.company">
+        <field name="sequence">2</field>
+        <field name="name">Odoo Retail</field>
+        <field name="partner_id" ref="partner_demo_company3_mx"/>
+        <!--    Asociación de Certificados  -->
+        <field name="l10n_mx_edi_pac">solfact</field>
+        <field name="l10n_mx_edi_pac_test_env">true</field>
+        <field name="l10n_mx_edi_fiscal_regime">601</field>
+<!--        <field name="l10n_mx_edi_certificate_ids" eval="[(6, 0, [ref('certificate_demo_company_mx_retail')])]"/>-->
+    </record>
+    <!--    Paquete Localización Fiscal  -->
+    <function model="account.chart.template" name="try_loading">
+        <value eval="[]"/>
+        <value>mx</value>
+        <value model="res.company" eval="ref('demo_company_mx_retail')"/>
+    </function>
+
+    <!--    4. Restaurant -->
+    <record id="demo_company_mx_restaurant" model="res.company">
+        <field name="sequence">3</field>
+        <field name="name">Odoo Restaurant</field>
+        <field name="partner_id" ref="partner_demo_company4_mx"/>
+        <!--    Asociación de Certificados  -->
+        <field name="l10n_mx_edi_pac">solfact</field>
+        <field name="l10n_mx_edi_pac_test_env">true</field>
+        <field name="l10n_mx_edi_fiscal_regime">601</field>
+<!--        <field name="l10n_mx_edi_certificate_ids" eval="[(6, 0, [ref('certificate_demo_company_mx_restaurant')])]"/>-->
+    </record>
+    <!--    Paquete Localización Fiscal  -->
+    <function model="account.chart.template" name="try_loading">
+        <value eval="[]"/>
+        <value>mx</value>
+        <value model="res.company" eval="ref('demo_company_mx_restaurant')"/>
+    </function>
+
+</odoo>
+
+
+
+

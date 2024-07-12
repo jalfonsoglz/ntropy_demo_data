@@ -1,7 +1,7 @@
 <odoo>
     <record model="ir.ui.view" id="view_ntropy_demo_data_list">
-        <field name="name">ntropy.demo.data.generator.list</field>
-        <field name="model">ntropy.demo.data.generator</field>
+        <field name="name">ntropy.demo.data.list</field>
+        <field name="model">ntropy.demo.data</field>
         <field name="type">tree</field>
         <field name="arch" type="xml">
             <tree string="Data Generator List">
@@ -11,8 +11,8 @@
         </field>
     </record>
     <record model="ir.ui.view" id="view_ntropy_demo_data_form">
-        <field name="name">ntropy.demo.data.generator.form</field>
-        <field name="model">ntropy.demo.data.generator</field>
+        <field name="name">ntropy.demo.data.form</field>
+        <field name="model">ntropy.demo.data</field>
         <field name="type">form</field>
         <field name="arch" type="xml">
             <form string="Data Generator">

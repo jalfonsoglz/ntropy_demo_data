@@ -1,6 +1,6 @@
-# Demo Data Generator [by [Ntropy](https://ntropy.tech/odoo/)]
+#  [Ntropy](https://ntropy.tech/odoo/) Demo Data
 
-[Based](https://www.odoo.com/documentation/17.0/applications/finance/fiscal_localizations/mexico.html#introduction)
+[Based on Odoo Mexican localization](https://www.odoo.com/documentation/17.0/applications/finance/fiscal_localizations/mexico.html#introduction)
 
 ## 1. Pre-requisites
 
