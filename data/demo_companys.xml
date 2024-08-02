@@ -2,7 +2,7 @@
 <odoo>
     <!--    Contacto de EMPRESA 1 (Servicios) -->
     <record id="base.main_partner" model="res.partner">
-        <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/company.png"/>
+        <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/services.png"/>
         <field name="name">ERP Solutions</field>
         <field name="vat">EKU9003173C9</field>
         <field name="street">Campobasso Norte 3206/9000</field>
@@ -28,7 +28,7 @@
     </record>
     <!--    Contacto de EMPRESA 2 (Comercializadora) -->
     <record id="partner_demo_company2_mx" model="res.partner">
-        <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/company.png"/>
+        <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/trading.png"/>
         <field name="name">Odoo Trading</field>
         <field name="vat">EKU9003173C9</field>
         <field name="street">Campobasso Norte 3206/9000</field>
@@ -54,7 +54,7 @@
     </record>
     <!--    Contacto de EMPRESA 3 (Minorista) -->
     <record id="partner_demo_company3_mx" model="res.partner">
-        <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/company.png"/>
+        <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/retail.png"/>
         <field name="name">Odoo Retail</field>
         <field name="vat">EKU9003173C9</field>
         <field name="street">Campobasso Norte 3206/9000</field>
@@ -80,7 +80,7 @@
     </record>
     <!--    Contacto de EMPRESA 4 (Restaurante) -->
     <record id="partner_demo_company4_mx" model="res.partner">
-        <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/company.png"/>
+        <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/restaurant.png"/>
         <field name="name">Odoo Restaurant</field>
         <field name="vat">EKU9003173C9</field>
         <field name="street">Campobasso Norte 3206/9000</field>
@@ -105,35 +105,6 @@
         <field name="l10n_mx_edi_colony_code">0858</field>
     </record>
 
-    <!--    Certificados de Sello Digital de Prueba para firmar CFDI -->
-    <record id="certificate_demo_company_mx" model="l10n_mx_edi.certificate">
-        <field name="content" type="base64" file="ntropy_demo_data/pac_credentials/certificate.cer"/>
-        <field name="key" type="base64" file="ntropy_demo_data/pac_credentials/certificate.key"/>
-        <field name="serial_number">30001000000500003416</field>
-        <field name="password">12345678a</field>
-    </record>
-
-    <record id="certificate_demo_company_mx_trading" model="l10n_mx_edi.certificate">
-        <field name="content" type="base64" file="ntropy_demo_data/pac_credentials/certificate.cer"/>
-        <field name="key" type="base64" file="ntropy_demo_data/pac_credentials/certificate.key"/>
-        <field name="serial_number">30001000000500003416</field>
-        <field name="password">12345678a</field>
-    </record>
-
-    <record id="certificate_demo_company_mx_retail" model="l10n_mx_edi.certificate">
-        <field name="content" type="base64" file="ntropy_demo_data/pac_credentials/certificate.cer"/>
-        <field name="key" type="base64" file="ntropy_demo_data/pac_credentials/certificate.key"/>
-        <field name="serial_number">30001000000500003416</field>
-        <field name="password">12345678a</field>
-    </record>
-
-    <record id="certificate_demo_company_mx_restaurant" model="l10n_mx_edi.certificate">
-        <field name="content" type="base64" file="ntropy_demo_data/pac_credentials/certificate.cer"/>
-        <field name="key" type="base64" file="ntropy_demo_data/pac_credentials/certificate.key"/>
-        <field name="serial_number">30001000000500003416</field>
-        <field name="password">12345678a</field>
-    </record>
-
     <!--    Creación de Empresas -->
     <!--    1. Services -->
     <record id="base.main_company" model="res.company">
@@ -144,7 +115,20 @@
         <field name="l10n_mx_edi_pac">solfact</field>
         <field name="l10n_mx_edi_pac_test_env">true</field>
         <field name="l10n_mx_edi_fiscal_regime">601</field>
-        <field name="l10n_mx_edi_certificate_ids" eval="[(6, 0, [ref('certificate_demo_company_mx')])]"/>
+        <!--    Configuraciones Generales de Compañia  -->
+        <field name="font">Open_Sans</field>
+        <field name="paperformat_id">1</field>
+        <field name="external_report_layout_id">200</field>
+        <field name="font">Tajawal</field>
+        <field name="primary_color">#0d9d9a</field>
+        <field name="secondary_color">#111219</field>
+        <field name="layout_background">Blank</field>
+        <field name="account_fiscal_country_id">156</field>
+        <field name="currency_provider">banxico</field>
+        <field name="currency_interval_unit">daily</field>
+        <field name="currency_next_execution_date">2024-01-01</field>
+        <field name="l10n_mx_edi_num_exporter">123456789</field>
+<!--        <field name="tax_cash_basis_journal_id" ref="account.1_cuenta801_01_99"/>-->
     </record>
     <!--    Paquete Localización Fiscal  -->
     <function model="account.chart.template" name="try_loading">
@@ -162,7 +146,7 @@
         <field name="l10n_mx_edi_pac">solfact</field>
         <field name="l10n_mx_edi_pac_test_env">true</field>
         <field name="l10n_mx_edi_fiscal_regime">601</field>
-<!--        <field name="l10n_mx_edi_certificate_ids" eval="[(6, 0, [ref('certificate_demo_company_mx_trading')])]"/>-->
+        <field name="font">Open_Sans</field>
     </record>
     <!--    Paquete Localización Fiscal  -->
     <function model="account.chart.template" name="try_loading">
@@ -180,7 +164,7 @@
         <field name="l10n_mx_edi_pac">solfact</field>
         <field name="l10n_mx_edi_pac_test_env">true</field>
         <field name="l10n_mx_edi_fiscal_regime">601</field>
-<!--        <field name="l10n_mx_edi_certificate_ids" eval="[(6, 0, [ref('certificate_demo_company_mx_retail')])]"/>-->
+        <field name="font">Open_Sans</field>
     </record>
     <!--    Paquete Localización Fiscal  -->
     <function model="account.chart.template" name="try_loading">
@@ -198,7 +182,7 @@
         <field name="l10n_mx_edi_pac">solfact</field>
         <field name="l10n_mx_edi_pac_test_env">true</field>
         <field name="l10n_mx_edi_fiscal_regime">601</field>
-<!--        <field name="l10n_mx_edi_certificate_ids" eval="[(6, 0, [ref('certificate_demo_company_mx_restaurant')])]"/>-->
+        <field name="font">Open_Sans</field>
     </record>
     <!--    Paquete Localización Fiscal  -->
     <function model="account.chart.template" name="try_loading">
@@ -206,6 +190,39 @@
         <value>mx</value>
         <value model="res.company" eval="ref('demo_company_mx_restaurant')"/>
     </function>
+
+    <!--    Certificados de Sello Digital de Prueba para firmar CFDI -->
+    <record id="certificate_demo_company_mx" model="l10n_mx_edi.certificate">
+        <field name="company_id" ref="base.main_company"/>
+        <field name="content" type="base64" file="ntropy_demo_data/pac_credentials/certificate.cer"/>
+        <field name="key" type="base64" file="ntropy_demo_data/pac_credentials/certificate.key"/>
+        <field name="serial_number">30001000000500003416</field>
+        <field name="password">12345678a</field>
+    </record>
+
+    <record id="certificate_demo_company_mx_trading" model="l10n_mx_edi.certificate">
+        <field name="company_id" ref="demo_company_mx_trading"/>
+        <field name="content" type="base64" file="ntropy_demo_data/pac_credentials/certificate.cer"/>
+        <field name="key" type="base64" file="ntropy_demo_data/pac_credentials/certificate.key"/>
+        <field name="serial_number">30001000000500003416</field>
+        <field name="password">12345678a</field>
+    </record>
+
+    <record id="certificate_demo_company_mx_retail" model="l10n_mx_edi.certificate">
+        <field name="company_id" ref="ntropy_demo_data.demo_company_mx_retail"/>
+        <field name="content" type="base64" file="ntropy_demo_data/pac_credentials/certificate.cer"/>
+        <field name="key" type="base64" file="ntropy_demo_data/pac_credentials/certificate.key"/>
+        <field name="serial_number">30001000000500003416</field>
+        <field name="password">12345678a</field>
+    </record>
+
+    <record id="certificate_demo_company_mx_restaurant" model="l10n_mx_edi.certificate">
+        <field name="company_id" ref="demo_company_mx_restaurant"/>
+        <field name="content" type="base64" file="ntropy_demo_data/pac_credentials/certificate.cer"/>
+        <field name="key" type="base64" file="ntropy_demo_data/pac_credentials/certificate.key"/>
+        <field name="serial_number">30001000000500003416</field>
+        <field name="password">12345678a</field>
+    </record>
 
 </odoo>
 
