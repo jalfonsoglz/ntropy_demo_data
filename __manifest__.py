@@ -92,10 +92,11 @@
         'data/hr.contract.xml',
         'data/hr.leave.xml',
         'data/hr.attendance.xml',
+        'data/budgets.xml',
         # 'data/account.move.xml',
         # 'data/account.payment.xml',
         # 'data/cron.xml',
-        'data/ntropy.xml',
+        # 'data/ntropy.xml',
         # Sequence
     ],
     'currency': "USD",
