@@ -142,7 +142,7 @@
             <field name="landed_cost_ok">true</field>
         </record>
         <record id="ntropy_product_10" model="product.template">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="demo_company_mx_trading"/>
             <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/product.png"/>
             <field name="name">Producto Almacenable</field>
             <field name="default_code">ALM-NAC</field>
@@ -162,7 +162,7 @@
             <field name="price">500</field>
         </record>
         <record id="ntropy_product_11" model="product.template">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="demo_company_mx_trading"/>
             <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/product.png"/>
             <field name="name">Producto Importado</field>
             <field name="default_code">ALM-IMP</field>
@@ -187,8 +187,8 @@
         <record id="ntropy_product_12" model="product.template">
             <field name="company_id" ref="base.main_company"/>
             <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/invoice.png"/>
-            <field name="name">Cuenta por cobrar</field>
-            <field name="default_code">CXC</field>
+            <field name="name">Gasto</field>
+            <field name="default_code">GASTO</field>
             <field name="list_price">0</field>
             <field name="standard_price">0</field>
             <field name="detailed_type">service</field>
@@ -198,20 +198,20 @@
             <field name="uom_po_id">1</field>
         </record>
         <record id="ntropy_product_13" model="product.template">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="demo_company_mx_trading"/>
             <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/invoice.png"/>
-            <field name="name">Cuenta por pagar</field>
-            <field name="default_code">CXP</field>
+            <field name="name">Insumo</field>
+            <field name="default_code">INSUMO</field>
             <field name="list_price">0</field>
             <field name="standard_price">0</field>
-            <field name="detailed_type">service</field>
+            <field name="detailed_type">product</field>
             <field name="categ_id" ref="product.cat_expense"/>
             <field name="unspsc_code_id">51545</field>
             <field name="uom_id">1</field>
             <field name="uom_po_id">1</field>
         </record>
         <record id="ntropy_product_14" model="product.template">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="demo_company_mx_trading"/>
             <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/biohazard.png"/>
             <field name="name">Material Peligroso</field>
             <field name="default_code">MATPEL</field>
@@ -237,7 +237,7 @@
             <field name="price">500</field>
         </record>
         <record id="ntropy_product_15" model="product.template">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="demo_company_mx_trading"/>
             <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/product.png"/>
             <field name="name">Producto MTO</field>
             <field name="default_code">ALM-MTO</field>
@@ -257,6 +257,19 @@
             <field name="product_tmpl_id" ref="ntropy_demo_data.ntropy_product_15"/>
             <field name="min_qty">0</field>
             <field name="price">600</field>
+        </record>
+        <record id="appointment_account_payment.default_booking_product_product_template" model="product.template">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/booking.png"/>
+            <field name="name">Tarifas de reservación</field>
+            <field name="default_code">RESERVA</field>
+            <field name="list_price">50</field>
+            <field name="standard_price">0</field>
+            <field name="detailed_type">booking_fees</field>
+            <field name="categ_id" ref="appointment_account_payment.product_category_appointment"/>
+            <field name="unspsc_code_id">9102</field>
+            <field name="uom_id">1</field>
+            <field name="uom_po_id">1</field>
         </record>
     </data>
 </odoo>
