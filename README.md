@@ -105,6 +105,12 @@ Incoming:
 
 ## 5. Workflows
 
+### Facturación Electrónica
+
+1. Facturas de Cliente
+
+https://github.com/user-attachments/assets/c9964111-7b80-44d4-a6a7-bf7df5ffeb0e
+
 ## 6. Changelog
 
 ## 7. To do
