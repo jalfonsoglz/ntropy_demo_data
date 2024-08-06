@@ -13,6 +13,8 @@ class NtropyDemoData(models.Model):
 
     name = fields.Char()
     qty_data = fields.Integer(default=1)
+    start_date = fields.Date(default=fields.Date.today)
+    end_date = fields.Date()
 
     def fake_contacts(self):
         fake = Faker('es_MX')
@@ -66,9 +68,17 @@ class NtropyDemoData(models.Model):
         customers = self.env['res.partner'].search([('category_id.name', 'in', ['Cliente'])
                                                     ])
         sales_order_range = self.qty_data
-        products = self.env['product.product'].search([
-            ('default_code', 'in', ['CONSUL', 'ALM-NAC', 'ALM-IMP', 'SYSNET'])
-        ])
+        company_name = self.env.company.name
+        if company_name == 'ERP Solutions':
+            products = self.env['product.product'].search([
+                ('default_code', 'in', ['CONTA', 'RRHH', 'SYSNET', 'CONSUL', 'TIME'])
+            ])
+        elif company_name == 'Odoo Trading':
+            products = self.env['product.product'].search([
+                ('default_code', 'in', ['ALM-NAC', 'ALM-IMP', 'ALM-MTO'])
+            ])
+        else:
+            products = self.env['product.product'].search([])
         random_source = self.env['utm.source'].search([])
         # users = self.env['res.users'].search([])
         payment_term_id = self.env.ref('account.account_payment_term_15days').id
@@ -107,9 +117,17 @@ class NtropyDemoData(models.Model):
         expenses_order_obj = self.env['purchase.order']
         supplier = self.env['res.partner'].search([('category_id.name', 'in', ['Proveedor'])])
         purchase_order_range = self.qty_data
-        products = self.env['product.product'].search([
-            ('default_code', 'in', ['ADUANA', 'NOMINA', 'CONTA', 'RRHH', 'FLETE'])
-        ])
+        company_name = self.env.company.name
+        if company_name == 'ERP Solutions':
+            products = self.env['product.product'].search([
+                ('default_code', 'in', ['GASTO', 'NOMINA'])
+            ])
+        elif company_name == 'Odoo Trading':
+            products = self.env['product.product'].search([
+                ('default_code', 'in', ['INSUMO', 'ADUANA', 'FLETE'])
+            ])
+        else:
+            products = self.env['product.product'].search([])
         # users = self.env['res.users'].search([])
         payment_term_id = self.env.ref('account.account_payment_term_45days').id
         msj = ""
@@ -145,9 +163,17 @@ class NtropyDemoData(models.Model):
         purchase_order_obj = self.env['purchase.order']
         supplier = self.env['res.partner'].search([('category_id.name', 'in', ['Proveedor'])])
         purchase_order_range = self.qty_data
-        products = self.env['product.product'].search([
-            ('default_code', 'in', ['ALM-NAC', 'ALM-IMP'])
-        ])
+        company_name = self.env.company.name
+        if company_name == 'ERP Solutions':
+            products = self.env['product.product'].search([
+                ('default_code', 'in', ['GASTO', 'NOMINA'])
+            ])
+        elif company_name == 'Odoo Trading':
+            products = self.env['product.product'].search([
+                ('default_code', 'in', ['INSUMO', 'ADUANA', 'FLETE'])
+            ])
+        else:
+            products = self.env['product.product'].search([])
         # users = self.env['res.users'].search([])
         payment_term_id = self.env.ref('account.account_payment_term_advance_60days').id
         msj = ""
@@ -184,7 +210,7 @@ class NtropyDemoData(models.Model):
         invoice_order_range = self.qty_data
         customers = self.env['res.partner'].search([('category_id.name', 'in', ['Cliente'])])
         products = self.env['product.product'].search([
-            ('default_code', 'in', ['CONSUL', 'ALM-NAC', 'ALM-IMP', 'SYSNET'])
+            ('default_code', 'in', ['CONTA', 'RRHH', 'SYSNET', 'CONSUL', 'TIME'])
         ])
         msj = ""
         counter = 0
@@ -195,11 +221,7 @@ class NtropyDemoData(models.Model):
             partner_id = customers[i % len(customers)].id
             product_id = products[i % len(products)].id
             partner_id_random = random.choice(customers)
-            current_date = fields.Date.today()
-            start_date = current_date - timedelta(days=365 * 3)
-            end_date = current_date
-            random_date_str = f"{random.randint(start_date.year, end_date.year)}-{random.randint(1, 12)}-{random.randint(1, 28)}"
-            random_date = datetime.strptime(random_date_str, '%Y-%m-%d').date()
+            random_date = self.start_date + timedelta(days=random.randint(0, (self.end_date - self.start_date).days))
             if partner_id and product_id:
                 customer_invoice_obj.create({
                     'journal_id': self.env.ref('account.1_sale').id,
@@ -230,7 +252,7 @@ class NtropyDemoData(models.Model):
         invoice_order_range = self.qty_data
         customers = self.env['res.partner'].search([('category_id.name', 'in', ['Cliente'])])
         products = self.env['product.product'].search([
-            ('default_code', 'in', ['CONSUL', 'ALM-NAC', 'ALM-IMP', 'SYSNET'])
+            ('default_code', 'in', ['CONTA', 'RRHH', 'SYSNET', 'CONSUL', 'TIME'])
         ])
         msj = ""
         counter = 0
@@ -241,11 +263,7 @@ class NtropyDemoData(models.Model):
             partner_id = customers[i % len(customers)].id
             product_id = products[i % len(products)].id
             partner_id_random = random.choice(customers)
-            current_date = fields.Date.today()
-            start_date = current_date - timedelta(days=365 * 3)
-            end_date = current_date
-            random_date_str = f"{random.randint(start_date.year, end_date.year)}-{random.randint(1, 12)}-{random.randint(1, 28)}"
-            random_date = datetime.strptime(random_date_str, '%Y-%m-%d').date()
+            random_date = self.start_date + timedelta(days=random.randint(0, (self.end_date - self.start_date).days))
             if partner_id and product_id:
                 customer_invoice_40_obj.create({
                     'journal_id': self.env.ref('ntropy_demo_data.account_journal_mx_sale_invoice').id,
@@ -275,9 +293,17 @@ class NtropyDemoData(models.Model):
         supplier_invoice_obj = self.env['account.move']
         invoice_order_range = self.qty_data
         supplier = self.env['res.partner'].search([('category_id.name', 'in', ['Proveedor'])])
-        products = self.env['product.product'].search([
-            ('default_code', 'in', ['ADUANA', 'NOMINA', 'CONTA', 'RRHH', 'FLETE'])
-        ])
+        company_name = self.env.company.name
+        if company_name == 'ERP Solutions':
+            products = self.env['product.product'].search([
+                ('default_code', 'in', ['GASTO', 'NOMINA'])
+            ])
+        elif company_name == 'Odoo Trading':
+            products = self.env['product.product'].search([
+                ('default_code', 'in', ['INSUMO', 'ADUANA', 'FLETE'])
+            ])
+        else:
+            products = self.env['product.product'].search([])
         msj = ""
         counter = 0
 
@@ -287,11 +313,7 @@ class NtropyDemoData(models.Model):
             partner_id = supplier[i % len(supplier)].id
             product_id = products[i % len(products)].id
             partner_id_random = random.choice(supplier)
-            current_date = fields.Date.today()
-            start_date = current_date - timedelta(days=365 * 3)
-            end_date = current_date
-            random_date_str = f"{random.randint(start_date.year, end_date.year)}-{random.randint(1, 12)}-{random.randint(1, 28)}"
-            random_date = datetime.strptime(random_date_str, '%Y-%m-%d').date()
+            random_date = self.start_date + timedelta(days=random.randint(0, (self.end_date - self.start_date).days))
             if partner_id and product_id:
                 supplier_invoice_obj.create({
                     'move_type': 'in_invoice',
@@ -333,11 +355,7 @@ class NtropyDemoData(models.Model):
             partner_id = customers[i % len(customers)].id
             product_id = products[i % len(products)].id
             partner_id_random = random.choice(customers)
-            current_date = fields.Date.today()
-            start_date = current_date - timedelta(days=365 * 3)
-            end_date = current_date
-            random_date_str = f"{random.randint(start_date.year, end_date.year)}-{random.randint(1, 12)}-{random.randint(1, 28)}"
-            random_date = datetime.strptime(random_date_str, '%Y-%m-%d').date()
+            random_date = self.start_date + timedelta(days=random.randint(0, (self.end_date - self.start_date).days))
             if partner_id and product_id:
                 customer_credit_note_obj.create({
                     'journal_id': self.env.ref('ntropy_demo_data.account_journal_mx_sale_credit_note').id,
@@ -384,11 +402,7 @@ class NtropyDemoData(models.Model):
             partner_id = supplier[i % len(supplier)].id
             product_id = products[i % len(products)].id
             partner_id_random = random.choice(supplier)
-            current_date = fields.Date.today()
-            start_date = current_date - timedelta(days=365 * 3)
-            end_date = current_date
-            random_date_str = f"{random.randint(start_date.year, end_date.year)}-{random.randint(1, 12)}-{random.randint(1, 28)}"
-            random_date = datetime.strptime(random_date_str, '%Y-%m-%d').date()
+            random_date = self.start_date + timedelta(days=random.randint(0, (self.end_date - self.start_date).days))
             if partner_id and product_id:
                 supplier_credit_note_obj.create({
                     'journal_id': self.env.ref('ntropy_demo_data.account_journal_mx_purchase_credit_note').id,
