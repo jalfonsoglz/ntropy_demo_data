@@ -1,13 +1,13 @@
 <odoo>
     <data>
         <record id="consul_template_base" model="sale.order.template">
-            <field name="name">Consultoría Empresarial Base</field>
+            <field name="name">Servicio de Consultoría Empresarial Base</field>
             <field name="number_of_days">30</field>
         </record>
         <record id="consul_template_base_order_line_1" model="sale.order.template.line">
             <field name="sale_order_template_id" ref="ntropy_demo_data.consul_template_base"/>
-            <field name="product_id" ref="ntropy_demo_data.ntropy_product_01"/>
-            <field name="name">Consultoría Empresarial Base</field>
+            <field name="product_id" ref="ntropy_demo_data.ntropy_product_consul"/>
+            <field name="name">Servicio de Consultoría Empresarial Base</field>
             <field name="product_uom_qty">8</field>
         </record>
 <!--        <record id="consul_template_base_order_note_1" model="sale.order.template.line">-->
@@ -16,61 +16,49 @@
 <!--            <field name="name">.</field>-->
 <!--        </record>-->
         <record id="consul_template_3m" model="sale.order.template">
-            <field name="name">Consultoría Empresarial 3M</field>
+            <field name="name">Servicio de Consultoría Empresarial 3M</field>
             <field name="number_of_days">30</field>
         </record>
         <record id="consul_template_base_order_line_2" model="sale.order.template.line">
             <field name="sale_order_template_id" ref="ntropy_demo_data.consul_template_3m"/>
-            <field name="product_id" ref="ntropy_demo_data.ntropy_product_01"/>
-            <field name="name">Consultoría Empresarial 3M</field>
+            <field name="product_id" ref="ntropy_demo_data.ntropy_product_consul"/>
+            <field name="name">Servicio de Consultoría Empresarial 3M</field>
             <field name="product_uom_qty">24</field>
         </record>
         <record id="consul_template_base_order_note_2" model="sale.order.template.line">
             <field name="sale_order_template_id" ref="ntropy_demo_data.consul_template_3m"/>
             <field name="display_type">line_note</field>
-            <field name="name">Perfecto para necesidades puntuales o evaluación de servicios, este paquete ofrece
-                soporte y consultoría especializada por un trimestre. Ideal para empresas que necesitan
-                asistencia específica o mejoras urgentes en su sistema. Incluye 8 horas mensuales de servicio, para un
-                total de 24 horas durante el rimestre.
-            </field>
+            <field name="name">.</field>
         </record>
         <record id="consul_template_6m" model="sale.order.template">
-            <field name="name">Consultoría Empresarial 6M</field>
+            <field name="name">Servicio de Consultoría Empresarial 6M</field>
             <field name="number_of_days">30</field>
         </record>
         <record id="consul_template_base_order_line_3" model="sale.order.template.line">
             <field name="sale_order_template_id" ref="ntropy_demo_data.consul_template_6m"/>
-            <field name="product_id" ref="ntropy_demo_data.ntropy_product_01"/>
-            <field name="name">Consultoría Empresarial 6M</field>
+            <field name="product_id" ref="ntropy_demo_data.ntropy_product_consul"/>
+            <field name="name">Servicio de Consultoría Empresarial 6M</field>
             <field name="product_uom_qty">48</field>
         </record>
         <record id="consul_template_base_order_note_3" model="sale.order.template.line">
             <field name="sale_order_template_id" ref="ntropy_demo_data.consul_template_6m"/>
             <field name="display_type">line_note</field>
-            <field name="name">Obtén flexibilidad sin sacrificar experticia con nuestro paquete semestral. Diseñado para
-                proyectos a medio plazo o empresas en fases de transición que necesitan apoyo experto ajustado a sus
-                ciclos de negocio. Este paquete incluye 8 horas mensuales de soporte y consultoría, totalizando 48 horas
-                en seis meses.
-            </field>
+            <field name="name">.</field>
         </record>
         <record id="consul_template_12m" model="sale.order.template">
-            <field name="name">Consultoría Empresarial 12M</field>
+            <field name="name">Servicio de Consultoría Empresarial 12M</field>
             <field name="number_of_days">30</field>
         </record>
         <record id="consul_template_base_order_line_4" model="sale.order.template.line">
             <field name="sale_order_template_id" ref="ntropy_demo_data.consul_template_12m"/>
-            <field name="product_id" ref="ntropy_demo_data.ntropy_product_01"/>
-            <field name="name">Consultoría Empresarial 12M</field>
+            <field name="product_id" ref="ntropy_demo_data.ntropy_product_consul"/>
+            <field name="name">Servicio de Consultoría Empresarial 12M</field>
             <field name="product_uom_qty">96</field>
         </record>
         <record id="consul_template_base_order_note_4" model="sale.order.template.line">
             <field name="sale_order_template_id" ref="ntropy_demo_data.consul_template_12m"/>
             <field name="display_type">line_note</field>
-            <field name="name">Aprovecha al máximo Odoo con nuestro paquete anual Odoo Expert Access. Ideal para
-                empresas que buscan estabilidad y una mejora continua en sus sistemas, este paquete ofrece soporte
-                experto y consultoría dedicada con la mejor relación costo-beneficio. Disfruta de 8 horas de servicio
-                experto cada mes, totalizando 96 horas al año.
-            </field>
+            <field name="name">.</field>
         </record>
     </data>
 </odoo>
