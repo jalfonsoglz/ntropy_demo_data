@@ -13,8 +13,8 @@ class NtropyDemoData(models.Model):
 
     name = fields.Char()
     qty_data = fields.Integer(default=1)
-    start_date = fields.Date(default=fields.Date.today)
-    end_date = fields.Date()
+    start_date = fields.Date(default=lambda self: datetime.today() - timedelta(days=7))
+    end_date = fields.Date(default=fields.Date.today)
 
     def fake_contacts(self):
         fake = Faker('es_MX')
