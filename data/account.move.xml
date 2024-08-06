@@ -9,7 +9,7 @@
             <field name="auto_post">at_date</field>
             <field name="payment_reference">FACC/2023/12/01</field>
             <field name="invoice_payment_term_id" ref="account.account_payment_term_45days"/>
-            <field name="journal_id" ref="account_journal_mx_invoice"/>
+            <field name="journal_id" ref="account_journal_mx_sale_invoice"/>
             <field name="currency_id" ref="base.MXN"/>
             <field name="invoice_user_id" ref="base.user_root"/>
             <field name="move_type">out_invoice</field>
@@ -20,8 +20,8 @@
             <field name="state">draft</field>
         </record>
         <record id="sample_invoice_lines_01" model="account.move.line">
-            <field name="move_id" ref="ntropy_demo_data.sample_invoice_01"/>
-            <field name="product_id" ref="ntropy_demo_data.ntropy_product_01"/>
+            <field name="move_id" ref="ntropy_demo_data.sample_invoice_01_mx"/>
+            <field name="product_id" ref="ntropy_demo_data.ntropy_product_consul"/>
             <field name="name">Consultoria Diciembre 2023</field>
             <field name="quantity">1</field>
         </record>
