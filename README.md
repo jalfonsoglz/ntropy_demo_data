@@ -108,8 +108,9 @@ Incoming:
 ### Facturación Electrónica
 
 1. Facturas de Cliente
+2. Nota de Crédito
 
-https://github.com/user-attachments/assets/c9964111-7b80-44d4-a6a7-bf7df5ffeb0e
+
 
 ## 6. Changelog
 
