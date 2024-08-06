@@ -17,20 +17,22 @@
         <field name="arch" type="xml">
             <form string="Data Generator">
                 <header>
-                    <button name="generate_customer_invoices" string="Customer Invoices" type="object" class="btn-primary"/>
-                    <button name="generate_customer_invoices_40" string="Customer Invoices 4.0" type="object" class="btn-primary"/>
-                    <button name="generate_supplier_invoices" string="Supplier Invoices" type="object" class="btn-primary"/>
+                    <button name="generate_customer_invoices" string="Customer Invoices" type="object"/>
+                    <button name="generate_customer_invoices_40" string="Customer Invoices 4.0" type="object"/>
                     <button name="generate_customer_credit_note" string="Customer Credit Note 4.0" type="object" />
+                    <button name="generate_supplier_invoices" string="Supplier Invoices" type="object"/>
                     <button name="generate_supplier_credit_note" string="Supplier Credit Note" type="object" />
                     <button name="generate_sale_orders" string="Sale Orders" type="object" />
-                    <button name="generate_expenses_orders" string="Expenses Orders" type="object" />
                     <button name="generate_purchase_orders" string="Purchase Orders" type="object" />
+                    <button name="generate_expenses_orders" string="Expenses Orders" type="object" />
                     <button name="fake_contacts" string="Contacts" type="object" />
                 </header>
                 <sheet>
                     <group>
                         <field name="name" invisible="not name"/>
                         <field name="qty_data"/>
+                        <field name="start_date"/>
+                        <field name="end_date"/>
                     </group>
                 </sheet>
                 <div class="oe_chatter">
