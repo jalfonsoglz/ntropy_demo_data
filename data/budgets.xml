@@ -30,7 +30,7 @@
             <field name="crossovered_budget_state">draft</field>
             <field name="date_from">2024-01-01</field>
             <field name="date_to">2024-01-31</field>
-            <field name="planned_amount">10000.00</field>
+            <field name="planned_amount">100000.00</field>
         </record>
 
         <record id="budget_line_outcome_month_01" model="crossovered.budget.lines">
@@ -39,7 +39,7 @@
             <field name="crossovered_budget_state">draft</field>
             <field name="date_from">2024-01-01</field>
             <field name="date_to">2024-01-31</field>
-            <field name="planned_amount">-3000.00</field>
+            <field name="planned_amount">-30000.00</field>
         </record>
         <record id="budget_line_income_month_02" model="crossovered.budget.lines">
             <field name="crossovered_budget_id" ref="demo_budget"/>
@@ -47,7 +47,7 @@
             <field name="crossovered_budget_state">draft</field>
             <field name="date_from">2024-02-01</field>
             <field name="date_to">2024-02-29</field>
-            <field name="planned_amount">10000.00</field>
+            <field name="planned_amount">100000.00</field>
         </record>
 
         <record id="budget_line_outcome_month_02" model="crossovered.budget.lines">
@@ -56,7 +56,7 @@
             <field name="crossovered_budget_state">draft</field>
             <field name="date_from">2024-02-01</field>
             <field name="date_to">2024-02-29</field>
-            <field name="planned_amount">-3000.00</field>
+            <field name="planned_amount">-30000.00</field>
         </record>
 
         <record id="budget_line_income_month_03" model="crossovered.budget.lines">
@@ -65,7 +65,7 @@
             <field name="crossovered_budget_state">draft</field>
             <field name="date_from">2024-03-01</field>
             <field name="date_to">2024-03-31</field>
-            <field name="planned_amount">10000.00</field>
+            <field name="planned_amount">100000.00</field>
         </record>
 
         <record id="budget_line_outcome_month_03" model="crossovered.budget.lines">
@@ -74,7 +74,7 @@
             <field name="crossovered_budget_state">draft</field>
             <field name="date_from">2024-03-01</field>
             <field name="date_to">2024-03-31</field>
-            <field name="planned_amount">-3000.00</field>
+            <field name="planned_amount">-30000.00</field>
         </record>
 
         <record id="budget_line_income_month_04" model="crossovered.budget.lines">
@@ -83,7 +83,7 @@
             <field name="crossovered_budget_state">draft</field>
             <field name="date_from">2024-04-01</field>
             <field name="date_to">2024-04-30</field>
-            <field name="planned_amount">10000.00</field>
+            <field name="planned_amount">100000.00</field>
         </record>
 
         <record id="budget_line_outcome_month_04" model="crossovered.budget.lines">
@@ -92,7 +92,7 @@
             <field name="crossovered_budget_state">draft</field>
             <field name="date_from">2024-04-01</field>
             <field name="date_to">2024-04-30</field>
-            <field name="planned_amount">-3000.00</field>
+            <field name="planned_amount">-30000.00</field>
         </record>
 
         <record id="budget_line_income_month_05" model="crossovered.budget.lines">
@@ -101,7 +101,7 @@
             <field name="crossovered_budget_state">draft</field>
             <field name="date_from">2024-05-01</field>
             <field name="date_to">2024-05-31</field>
-            <field name="planned_amount">10000.00</field>
+            <field name="planned_amount">100000.00</field>
         </record>
 
         <record id="budget_line_outcome_month_05" model="crossovered.budget.lines">
@@ -110,7 +110,7 @@
             <field name="crossovered_budget_state">draft</field>
             <field name="date_from">2024-05-01</field>
             <field name="date_to">2024-05-31</field>
-            <field name="planned_amount">-3000.00</field>
+            <field name="planned_amount">-30000.00</field>
         </record>
 
         <record id="budget_line_income_month_06" model="crossovered.budget.lines">
@@ -119,7 +119,7 @@
             <field name="crossovered_budget_state">draft</field>
             <field name="date_from">2024-06-01</field>
             <field name="date_to">2024-06-30</field>
-            <field name="planned_amount">10000.00</field>
+            <field name="planned_amount">100000.00</field>
         </record>
 
         <record id="budget_line_outcome_month_06" model="crossovered.budget.lines">
@@ -128,7 +128,7 @@
             <field name="crossovered_budget_state">draft</field>
             <field name="date_from">2024-06-01</field>
             <field name="date_to">2024-06-30</field>
-            <field name="planned_amount">-3000.00</field>
+            <field name="planned_amount">-30000.00</field>
         </record>
 
         <record id="budget_line_income_month_07" model="crossovered.budget.lines">
@@ -137,7 +137,7 @@
             <field name="crossovered_budget_state">draft</field>
             <field name="date_from">2024-07-01</field>
             <field name="date_to">2024-07-31</field>
-            <field name="planned_amount">10000.00</field>
+            <field name="planned_amount">100000.00</field>
         </record>
 
         <record id="budget_line_outcome_month_07" model="crossovered.budget.lines">
@@ -146,7 +146,7 @@
             <field name="crossovered_budget_state">draft</field>
             <field name="date_from">2024-07-01</field>
             <field name="date_to">2024-07-31</field>
-            <field name="planned_amount">-3000.00</field>
+            <field name="planned_amount">-30000.00</field>
         </record>
 
         <record id="budget_line_income_month_08" model="crossovered.budget.lines">
@@ -155,7 +155,7 @@
             <field name="crossovered_budget_state">draft</field>
             <field name="date_from">2024-08-01</field>
             <field name="date_to">2024-08-31</field>
-            <field name="planned_amount">10000.00</field>
+            <field name="planned_amount">100000.00</field>
         </record>
 
         <record id="budget_line_outcome_month_08" model="crossovered.budget.lines">
@@ -164,7 +164,7 @@
             <field name="crossovered_budget_state">draft</field>
             <field name="date_from">2024-08-01</field>
             <field name="date_to">2024-08-31</field>
-            <field name="planned_amount">-3000.00</field>
+            <field name="planned_amount">-30000.00</field>
         </record>
 
         <record id="budget_line_income_month_09" model="crossovered.budget.lines">
