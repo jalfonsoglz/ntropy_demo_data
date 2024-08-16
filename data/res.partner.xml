@@ -526,6 +526,9 @@
             <field name="is_company">true</field>
             <field name="category_id" eval="[(4,ref('ntropy_demo_data.supplier_category'))]"/>
             <field name="l10n_mx_edi_fiscal_regime">601</field>
+            <field name="l10n_mx_edi_locality_id">21</field>
+            <field name="l10n_mx_edi_locality">Arteaga</field>
+            <field name="l10n_mx_edi_operator_licence">a234567890</field>
             <!--            <field name="property_account_receivable_id" ref="ntropy_demo_data.$"/>-->
             <field name="property_account_payable_id" ref="ntropy_demo_data.account_account_mx_supplier_07"/>
             <field name="property_payment_term_id" ref="account.account_payment_term_30days"/>
