@@ -13,7 +13,7 @@
         <field name="zip">20914</field>
         <field name="city">Jesús Maria</field>
         <field name="city_id">5</field>
-        <field name="state_id" ref="base.state_mx_son"/>
+        <field name="state_id">485</field>
         <field name="country_id" ref="base.mx"/>
         <field name="phone">+525511223344</field>
         <field name="mobile">5511223344</field>
@@ -39,7 +39,7 @@
         <field name="zip">20914</field>
         <field name="city">Jesús Maria</field>
         <field name="city_id">5</field>
-        <field name="state_id" ref="base.state_mx_son"/>
+        <field name="state_id">485</field>
         <field name="country_id" ref="base.mx"/>
         <field name="phone">+525511223344</field>
         <field name="mobile">5511223344</field>
@@ -65,7 +65,7 @@
         <field name="zip">20914</field>
         <field name="city">Jesús Maria</field>
         <field name="city_id">5</field>
-        <field name="state_id" ref="base.state_mx_son"/>
+        <field name="state_id">485</field>
         <field name="country_id" ref="base.mx"/>
         <field name="phone">+525511223344</field>
         <field name="mobile">5511223344</field>
@@ -91,7 +91,7 @@
         <field name="zip">20914</field>
         <field name="city">Jesús Maria</field>
         <field name="city_id">5</field>
-        <field name="state_id" ref="base.state_mx_son"/>
+        <field name="state_id">485</field>
         <field name="country_id" ref="base.mx"/>
         <field name="phone">+525511223344</field>
         <field name="mobile">5511223344</field>

@@ -193,8 +193,8 @@
             <field name="detailed_type">product</field>
             <field name="sale_ok">true</field>
             <field name="purchase_ok">true</field>
-            <field name="categ_id" ref="product.product_category_1"/>
-            <field name="unspsc_code_id">25772</field>
+            <field name="categ_id" ref="ntropy_category_product_03"/>
+            <field name="unspsc_code_id">26791</field>
             <field name="uom_id">12</field>
             <field name="uom_po_id">12</field>
             <field name="weight">5</field>
@@ -236,19 +236,19 @@
             <field name="price">600</field>
         </record>
         <!--        RENOMBRE DE PRODUCTOS ESTANDART-->
-        <record id="appointment_account_payment.default_booking_product_product_template" model="product.template">
-            <field name="company_id" ref="base.main_company"/>
-            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/booking.png"/>
-            <field name="name">Tarifas de reservación</field>
-            <field name="default_code">RESERVA</field>
-            <field name="list_price">50</field>
-            <field name="standard_price">0</field>
-            <field name="detailed_type">booking_fees</field>
-            <field name="categ_id" ref="appointment_account_payment.product_category_appointment"/>
-            <field name="unspsc_code_id">9102</field>
-            <field name="uom_id">1</field>
-            <field name="uom_po_id">1</field>
-        </record>
+<!--        <record id="appointment_account_payment.default_booking_product_product_template" model="product.template">-->
+<!--            <field name="company_id" ref="base.main_company"/>-->
+<!--            <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/booking.png"/>-->
+<!--            <field name="name">Tarifas de reservación</field>-->
+<!--            <field name="default_code">RESERVA</field>-->
+<!--            <field name="list_price">50</field>-->
+<!--            <field name="standard_price">0</field>-->
+<!--            <field name="detailed_type">booking_fees</field>-->
+<!--            <field name="categ_id" ref="appointment_account_payment.product_category_appointment"/>-->
+<!--            <field name="unspsc_code_id">9102</field>-->
+<!--            <field name="uom_id">1</field>-->
+<!--            <field name="uom_po_id">1</field>-->
+<!--        </record>-->
         <record id="pos_sale.default_downpayment_product_product_template" model="product.template">
             <field name="company_id" ref="base.main_company"/>
             <field name="image_1920" type="base64" file="ntropy_demo_data/static/icons/downpayment.png"/>
